@@ -117,8 +117,6 @@ You can download the datasets:
 - [iNat](https://drive.google.com/file/d/1Wav83umtIcITx9LqiWxh2LHXkZh3N40H/view?usp=drive_link): 17.8 GB
 - [FSOD](https://drive.google.com/file/d/1XkdivbNsMSdOKk-zOMKjbudPo5VEvRjC/view?usp=drive_link): 14.7 GB
 - [ImageNet-1k Val](https://drive.google.com/file/d/11cqx0wXjijnHyOXx7Coo2w1KfPVRuyL2/view?usp=drive_link): 6.2 GB
-- [COCO](https://drive.google.com/file/d/1kE3meIjr5TtIbtre0GT0uMNkxcprEdmQ/view?usp=drive_link): 37.2 GB
-- [LVIS](https://drive.google.com/file/d/1xyP5GIuFHaoo-J-zd9RHJ9tg6HSpug7I/view?usp=drive_link): 1.8 GB
 
 and put (or, softlink via `ln -s` command) under the `datasets` folder in this repository as:
 ```shell script
@@ -127,8 +125,6 @@ UnSec
           ├── inat
           ├── fsod
           ├── imagenet2012
-          ├── coco
-          └── lvis
 ```
 
 
