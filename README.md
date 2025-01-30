@@ -188,7 +188,7 @@ bash scripts_plant_hrchy/imagenet1k/plant_imagenet1k_tree_llm.sh
 ## License
 This project is licensed under the [LICENSE](LICENSE.txt) file.
 
-## Citation
+<!-- ## Citation
 If you find our work useful for your research, please cite our paper using the following BibTeX entry:
 ```bibtex
 @inproceedings{liu2024UnSec,
@@ -197,7 +197,7 @@ If you find our work useful for your research, please cite our paper using the f
   booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
   year={2024},
 }
-```
+``` -->
 
 ## Acknowledgment
 UnSec is built upon the awesome works
