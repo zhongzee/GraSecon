@@ -1,0 +1,183 @@
+{
+    "1": {
+        "node_name": "Chordata",
+        "parent_names": [],
+        "child_names": [
+            "Reptilia",
+            "Amphibia",
+            "Appendicularia",
+            "Aves",
+            "Actinopterygii",
+            "Chondrichthyes",
+            "Thaliacea",
+            "Cyclostomata",
+            "Sarcopterygii",
+            "Myxini",
+            "Agnatha",
+            "Ascidiacea",
+            "Mammalia"
+        ],
+        "candidate_sentences": [
+            "a Reptilia, which is a Chordata",
+            "a Amphibia, which is a Chordata",
+            "a Appendicularia, which is a Chordata",
+            "a Aves, which is a Chordata",
+            "a Actinopterygii, which is a Chordata",
+            "a Chondrichthyes, which is a Chordata",
+            "a Thaliacea, which is a Chordata",
+            "a Cyclostomata, which is a Chordata",
+            "a Sarcopterygii, which is a Chordata",
+            "a Myxini, which is a Chordata",
+            "a Agnatha, which is a Chordata",
+            "a Ascidiacea, which is a Chordata",
+            "a Mammalia, which is a Chordata"
+        ],
+        "detail_sentences": [
+            "Chordata is a phylum of animals characterized by a notochord, a dorsal nerve cord, and pharyngeal slits. Distinguishing visual features include a segmented body plan, a prominent head region, and the presence of a tail or tail-like structure."
+        ]
+    },
+    "2": {
+        "node_name": "Cnidaria",
+        "parent_names": [],
+        "child_names": [
+            "Staurozoa",
+            "Scyphozoa",
+            "Dicyemida",
+            "Orthonectida",
+            "Anthozoa",
+            "Siphonophorae",
+            "Polypodiozoa",
+            "Malacosporea",
+            "Cubozoa",
+            "Hydrozoa",
+            "Trachylina",
+            "Polypodium",
+            "Myxozoa"
+        ],
+        "candidate_sentences": [
+            "a Staurozoa, which is a Cnidaria",
+            "a Scyphozoa, which is a Cnidaria",
+            "a Dicyemida, which is a Cnidaria",
+            "a Orthonectida, which is a Cnidaria",
+            "a Anthozoa, which is a Cnidaria",
+            "a Siphonophorae, which is a Cnidaria",
+            "a Polypodiozoa, which is a Cnidaria",
+            "a Malacosporea, which is a Cnidaria",
+            "a Cubozoa, which is a Cnidaria",
+            "a Hydrozoa, which is a Cnidaria",
+            "a Trachylina, which is a Cnidaria",
+            "a Polypodium, which is a Cnidaria",
+            "a Myxozoa, which is a Cnidaria"
+        ],
+        "detail_sentences": [
+            "Cnidaria is a phylum of aquatic invertebrates with distinguishing visual features including radial symmetry, tentacles with stinging cells, and a gelatinous body structure. These attributes differentiate Cnidaria from Chordata, Arthropoda, Echinodermata, Mollusca, and other classes."
+        ]
+    },
+    "3": {
+        "node_name": "Arthropoda",
+        "parent_names": [],
+        "child_names": [
+            "Diplopoda",
+            "Pauropoda",
+            "Remipedia",
+            "Insecta",
+            "Arachnida",
+            "Chilopoda",
+            "Entognatha",
+            "Malacostraca",
+            "Maxillopoda",
+            "Crustacea",
+            "Collembola",
+            "Symphyla",
+            "Merostomata"
+        ],
+        "candidate_sentences": [
+            "a Diplopoda, which is a Arthropoda",
+            "a Pauropoda, which is a Arthropoda",
+            "a Remipedia, which is a Arthropoda",
+            "a Insecta, which is a Arthropoda",
+            "a Arachnida, which is a Arthropoda",
+            "a Chilopoda, which is a Arthropoda",
+            "a Entognatha, which is a Arthropoda",
+            "a Malacostraca, which is a Arthropoda",
+            "a Maxillopoda, which is a Arthropoda",
+            "a Crustacea, which is a Arthropoda",
+            "a Collembola, which is a Arthropoda",
+            "a Symphyla, which is a Arthropoda",
+            "a Merostomata, which is a Arthropoda"
+        ],
+        "detail_sentences": [
+            "Arthropoda is an invertebrate class characterized by jointed appendages, segmented bodies, and exoskeletons. Distinguishing visual features include the presence of antennae, compound eyes, and multiple pairs of legs."
+        ]
+    },
+    "4": {
+        "node_name": "Echinodermata",
+        "parent_names": [],
+        "child_names": [
+            "Asteroidia",
+            "Somasteroidea",
+            "Asteroidea",
+            "Cycloidea",
+            "Crinoidea",
+            "Holothuroidea",
+            "Carpoida",
+            "Concentricycloidea",
+            "Blastoidea",
+            "Ophiuroidea",
+            "Cyclocystoidea",
+            "Edrioasteroidea",
+            "Echinoidea"
+        ],
+        "candidate_sentences": [
+            "a Asteroidia, which is a Echinodermata",
+            "a Somasteroidea, which is a Echinodermata",
+            "a Asteroidea, which is a Echinodermata",
+            "a Cycloidea, which is a Echinodermata",
+            "a Crinoidea, which is a Echinodermata",
+            "a Holothuroidea, which is a Echinodermata",
+            "a Carpoida, which is a Echinodermata",
+            "a Concentricycloidea, which is a Echinodermata",
+            "a Blastoidea, which is a Echinodermata",
+            "a Ophiuroidea, which is a Echinodermata",
+            "a Cyclocystoidea, which is a Echinodermata",
+            "a Edrioasteroidea, which is a Echinodermata",
+            "a Echinoidea, which is a Echinodermata"
+        ],
+        "detail_sentences": [
+            "Echinodermata is a marine phylum characterized by radial symmetry, a calcareous endoskeleton, and a water vascular system. It can be distinguished from Chordata by its lack of a notochord, Cnidaria by its absence of stinging cells, Arthropoda by its lack of segmented body and jointed append"
+        ]
+    },
+    "5": {
+        "node_name": "Mollusca",
+        "parent_names": [],
+        "child_names": [
+            "Polyplacophora",
+            "Bivalvia",
+            "Scaphopoda",
+            "Rostroconchia",
+            "Solenogastres",
+            "Caudofoveata",
+            "Gastropoda",
+            "Neomeniomorpha",
+            "Monoplacophora",
+            "Aplacophora",
+            "Cephalopoda"
+        ],
+        "candidate_sentences": [
+            "a Polyplacophora, which is a Mollusca",
+            "a Bivalvia, which is a Mollusca",
+            "a Scaphopoda, which is a Mollusca",
+            "a Rostroconchia, which is a Mollusca",
+            "a Solenogastres, which is a Mollusca",
+            "a Caudofoveata, which is a Mollusca",
+            "a Gastropoda, which is a Mollusca",
+            "a Neomeniomorpha, which is a Mollusca",
+            "a Monoplacophora, which is a Mollusca",
+            "a Aplacophora, which is a Mollusca",
+            "a Cephalopoda, which is a Mollusca"
+        ],
+        "detail_sentences": [
+            "Mollusca is a phylum characterized by soft bodies, distinct head, and a muscular foot. It is distinguished from Chordata by the absence of a vertebral column, Cnidaria by the absence of tentacles and radial symmetry, Arthropoda by the absence of jointed appendages, and Echinodermata by the"
+        ]
+    }
+}

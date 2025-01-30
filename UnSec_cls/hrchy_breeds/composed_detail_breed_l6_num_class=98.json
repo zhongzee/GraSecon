@@ -1,0 +1,1436 @@
+{
+    "0": {
+        "node_name": "liner, ocean liner",
+        "parent_names": [
+            "passenger ship"
+        ],
+        "child_names": [],
+        "candidate_sentences": [
+            "a liner, ocean liner, which is a passenger ship"
+        ],
+        "detail_sentences": [
+            "An ocean liner is a large, elongated ship with multiple decks, often with distinct smokestacks. It features windows or portholes along the sides and is typically white or metallic. Unlike other vessels, it's designed for long-distance sea travel, usually carrying passengers."
+        ]
+    },
+    "1": {
+        "node_name": "Irish water spaniel",
+        "parent_names": [
+            "water spaniel"
+        ],
+        "child_names": [],
+        "candidate_sentences": [
+            "a Irish water spaniel, which is a water spaniel"
+        ],
+        "detail_sentences": [
+            "The Irish Water Spaniel has a distinctive curly, dense coat, often brown, with loose, water-resistant curls. It features a rounded head with a prominent topknot of hair and a long, tapered tail. Its body is medium-sized, athletic, and well-proportioned, giving it a distinctive silhouette."
+        ]
+    },
+    "2": {
+        "node_name": "groenendael",
+        "parent_names": [
+            "Belgian sheepdog",
+            "Belgian shepherd"
+        ],
+        "child_names": [],
+        "candidate_sentences": [
+            "a groenendael, which is a Belgian sheepdog",
+            "a groenendael, which is a Belgian shepherd"
+        ],
+        "detail_sentences": [
+            "A Groenendael is a breed of Belgian Shepherd dog characterized by its long, black, and abundant coat, erect triangular ears, and almond-shaped eyes. Its body is athletic and well-proportioned, with a noticeable mane around the neck, especially in males."
+        ]
+    },
+    "3": {
+        "node_name": "red-breasted merganser, Mergus serrator",
+        "parent_names": [
+            "merganser",
+            "fish duck",
+            "sawbill",
+            "sheldrake"
+        ],
+        "child_names": [],
+        "candidate_sentences": [
+            "a red-breasted merganser, Mergus serrator, which is a merganser",
+            "a red-breasted merganser, Mergus serrator, which is a fish duck",
+            "a red-breasted merganser, Mergus serrator, which is a sawbill",
+            "a red-breasted merganser, Mergus serrator, which is a sheldrake"
+        ],
+        "detail_sentences": [
+            "The Red-breasted Merganser, Mergus serrator, is a diving duck with a thin, serrated, dark-colored bill. It features a shaggy green-black crest, a reddish-brown breast, and white underparts. The male has a distinct white collar, while the female has a greyish head."
+        ]
+    },
+    "4": {
+        "node_name": "studio couch, day bed",
+        "parent_names": [
+            "convertible",
+            "sofa bed"
+        ],
+        "child_names": [],
+        "candidate_sentences": [
+            "a studio couch, day bed, which is a convertible",
+            "a studio couch, day bed, which is a sofa bed"
+        ],
+        "detail_sentences": [
+            "A 'studio couch, day bed' is a versatile piece of furniture, typically featuring a backrest along one side, a single elongated seating cushion, and often a trundle underneath. It's distinguishable by its dual-purpose design, allowing for both seating and sleeping."
+        ]
+    },
+    "5": {
+        "node_name": "malinois",
+        "parent_names": [
+            "Belgian sheepdog",
+            "Belgian shepherd"
+        ],
+        "child_names": [],
+        "candidate_sentences": [
+            "a malinois, which is a Belgian sheepdog",
+            "a malinois, which is a Belgian shepherd"
+        ],
+        "detail_sentences": [
+            "'Malinois' is a medium-large breed of dog, distinguished by its short fawn to mahogany coat with black mask and ears. It has a square build, athletic body, and almond-shaped, dark brown eyes. It also possesses a noticeable tail that's strong at the base."
+        ]
+    },
+    "6": {
+        "node_name": "common iguana, iguana, Iguana iguana",
+        "parent_names": [
+            "iguanid",
+            "iguanid lizard"
+        ],
+        "child_names": [],
+        "candidate_sentences": [
+            "a common iguana, iguana, Iguana iguana, which is a iguanid",
+            "a common iguana, iguana, Iguana iguana, which is a iguanid lizard"
+        ],
+        "detail_sentences": [
+            "The 'Common Iguana, Iguana, Iguana iguana' is a large, green reptile with a row of spines running down its back, a dewlap under its neck, and a long, whip-like tail. It also features round, parrot-beaked snout and distinctive circular, scaled ear patches."
+        ]
+    },
+    "7": {
+        "node_name": "analog clock",
+        "parent_names": [
+            "clock"
+        ],
+        "child_names": [],
+        "candidate_sentences": [
+            "a analog clock, which is a clock"
+        ],
+        "detail_sentences": [
+            "An analog clock is a circular device with numbered markings from 1-12. It has at least two moving hands (hour, minute) pointing to these numbers. Some may feature a third, faster-moving second hand."
+        ]
+    },
+    "8": {
+        "node_name": "wire-haired fox terrier",
+        "parent_names": [
+            "fox terrier"
+        ],
+        "child_names": [],
+        "candidate_sentences": [
+            "a wire-haired fox terrier, which is a fox terrier"
+        ],
+        "detail_sentences": [
+            "A wire-haired fox terrier is a small dog with a distinct wiry coat, predominantly white with black or brown markings. It has a square-shaped body, long face with a beard, and erect, V-shaped ears. Its tail is usually docked and carried high."
+        ]
+    },
+    "9": {
+        "node_name": "wall clock",
+        "parent_names": [
+            "clock"
+        ],
+        "child_names": [],
+        "candidate_sentences": [
+            "a wall clock, which is a clock"
+        ],
+        "detail_sentences": [
+            "A wall clock is typically circular or square, mounted on a wall, with number indicators (Arabic or Roman numerals) and at least two hands (hour and minute). It may also include a second hand and often enclosed in a glass cover."
+        ]
+    },
+    "10": {
+        "node_name": "parking meter",
+        "parent_names": [
+            "timer"
+        ],
+        "child_names": [],
+        "candidate_sentences": [
+            "a parking meter, which is a timer"
+        ],
+        "detail_sentences": [
+            "A parking meter is a tall, slender, freestanding device, typically metallic, found on sidewalks. It has a digital or analog display for time, a slot for payment, and often a pole-like structure at the bottom for stability."
+        ]
+    },
+    "11": {
+        "node_name": "standard poodle",
+        "parent_names": [
+            "poodle",
+            "poodle dog"
+        ],
+        "child_names": [],
+        "candidate_sentences": [
+            "a standard poodle, which is a poodle",
+            "a standard poodle, which is a poodle dog"
+        ],
+        "detail_sentences": [
+            "A standard poodle is a medium to large-sized dog with a distinctive curly or corded coat. It has a long, slender muzzle, and its ears hang close to its head. Its tail is often docked to half length, giving it a pompom appearance."
+        ]
+    },
+    "12": {
+        "node_name": "bullfrog, Rana catesbeiana",
+        "parent_names": [
+            "true frog",
+            "ranid"
+        ],
+        "child_names": [],
+        "candidate_sentences": [
+            "a bullfrog, Rana catesbeiana, which is a true frog",
+            "a bullfrog, Rana catesbeiana, which is a ranid"
+        ],
+        "detail_sentences": [
+            "'Bullfrog, Rana catesbeiana' is a large amphibian with a robust body and smooth, olive-green skin. It features a distinct tympanic membrane behind its eyes and has long, powerful hind legs with webbed feet for swimming."
+        ]
+    },
+    "13": {
+        "node_name": "diamondback, diamondback rattlesnake, Crotalus adamanteus",
+        "parent_names": [
+            "rattlesnake",
+            "rattler"
+        ],
+        "child_names": [],
+        "candidate_sentences": [
+            "a diamondback, diamondback rattlesnake, Crotalus adamanteus, which is a rattlesnake",
+            "a diamondback, diamondback rattlesnake, Crotalus adamanteus, which is a rattler"
+        ],
+        "detail_sentences": [
+            "The diamondback rattlesnake (Crotalus adamanteus) has a distinctive diamond-patterned, light brown to grayish body with dark brown or black markings. It features a triangular head, a thick body, and a rattle at the tail. Its scales are keeled, and it has vertical slits in its elliptical pupils."
+        ]
+    },
+    "14": {
+        "node_name": "zucchini, courgette",
+        "parent_names": [
+            "summer squash"
+        ],
+        "child_names": [],
+        "candidate_sentences": [
+            "a zucchini, courgette, which is a summer squash"
+        ],
+        "detail_sentences": [
+            "'Zucchini, courgette' is a cylindrical, elongated vegetable with a smooth, glossy skin that can range from light to dark green. Its ends are typically rounded and it may have faint white stripes or spots."
+        ]
+    },
+    "15": {
+        "node_name": "bighorn, bighorn sheep, cimarron, Rocky Mountain bighorn, Rocky Mountain sheep, Ovis canadensis",
+        "parent_names": [
+            "mountain sheep"
+        ],
+        "child_names": [],
+        "candidate_sentences": [
+            "a bighorn, bighorn sheep, cimarron, Rocky Mountain bighorn, Rocky Mountain sheep, Ovis canadensis, which is a mountain sheep"
+        ],
+        "detail_sentences": [
+            "The 'Ovis canadensis' or bighorn sheep is distinguished by its large, curved horns in males, lighter brown coat with white rump patch, and robust, muscular body. It's notably different from similar species due to its size and distinctive horn shape."
+        ]
+    },
+    "16": {
+        "node_name": "Komodo dragon, Komodo lizard, dragon lizard, giant lizard, Varanus komodoensis",
+        "parent_names": [
+            "monitor",
+            "monitor lizard",
+            "varan"
+        ],
+        "child_names": [],
+        "candidate_sentences": [
+            "a Komodo dragon, Komodo lizard, dragon lizard, giant lizard, Varanus komodoensis, which is a monitor",
+            "a Komodo dragon, Komodo lizard, dragon lizard, giant lizard, Varanus komodoensis, which is a monitor lizard",
+            "a Komodo dragon, Komodo lizard, dragon lizard, giant lizard, Varanus komodoensis, which is a varan"
+        ],
+        "detail_sentences": [
+            "The Komodo dragon is a large, heavy-bodied lizard with rough, scaly skin, usually dark grey or brown. It has a long, flat head with a rounded snout, sturdy legs with sharp claws, and a long, muscular tail."
+        ]
+    },
+    "17": {
+        "node_name": "Blenheim spaniel",
+        "parent_names": [
+            "toy spaniel"
+        ],
+        "child_names": [],
+        "candidate_sentences": [
+            "a Blenheim spaniel, which is a toy spaniel"
+        ],
+        "detail_sentences": [
+            "A Blenheim Spaniel, a variety of King Charles Spaniel, is a small dog with a distinctive chestnut and white \"Blenheim\" coat. It has a unique lozenge mark or 'Blenheim spot' on the top of its head. Its ears are long and set high, often feathered."
+        ]
+    },
+    "18": {
+        "node_name": "toy poodle",
+        "parent_names": [
+            "poodle",
+            "poodle dog"
+        ],
+        "child_names": [],
+        "candidate_sentences": [
+            "a toy poodle, which is a poodle",
+            "a toy poodle, which is a poodle dog"
+        ],
+        "detail_sentences": [
+            "The toy poodle is a small, compact dog with curly, dense fur that forms a distinctive puffed shape. It has a rounded head with a tapered snout, large, dark eyes, and long, floppy ears. Its coat is typically uniform in color, ranging from white to brown or black."
+        ]
+    },
+    "19": {
+        "node_name": "trimaran",
+        "parent_names": [
+            "sailboat",
+            "sailing boat"
+        ],
+        "child_names": [],
+        "candidate_sentences": [
+            "a trimaran, which is a sailboat",
+            "a trimaran, which is a sailing boat"
+        ],
+        "detail_sentences": [
+            "A trimaran is a multihull boat featuring one main hull flanked by two smaller outrigger hulls, typically connected by lateral beams. Its distinguishing features include a wide beam, increased stability, and often a streamlined, aerodynamic design."
+        ]
+    },
+    "20": {
+        "node_name": "acoustic guitar",
+        "parent_names": [
+            "guitar"
+        ],
+        "child_names": [],
+        "candidate_sentences": [
+            "a acoustic guitar, which is a guitar"
+        ],
+        "detail_sentences": [
+            "An acoustic guitar has a hollow, hourglass-shaped body often made of wood, a long, slender neck with frets, and six strings. It distinguishes from similar classes by its sound hole in the body's center and lack of electrical components."
+        ]
+    },
+    "21": {
+        "node_name": "carbonara",
+        "parent_names": [
+            "spaghetti sauce",
+            "pasta sauce"
+        ],
+        "child_names": [],
+        "candidate_sentences": [
+            "a carbonara, which is a spaghetti sauce",
+            "a carbonara, which is a pasta sauce"
+        ],
+        "detail_sentences": [
+            "Carbonara is a creamy, off-white pasta dish typically featuring spaghetti. Distinguishing visual features include the presence of small, cubed pancetta or guanciale (Italian cured meat), and a sprinkling of yellowish cheese, often Pecorino Romano or Parmesan."
+        ]
+    },
+    "22": {
+        "node_name": "apiary, bee house",
+        "parent_names": [
+            "shed"
+        ],
+        "child_names": [],
+        "candidate_sentences": [
+            "a apiary, bee house, which is a shed"
+        ],
+        "detail_sentences": [
+            "An apiary or bee house typically features a collection of stacked, rectangular or cylindrical wooden boxes with small entrances. It is often located in open, grassy areas. Distinct attributes include a rustic wooden appearance, multiple stacked compartments, and small ventilation holes or entrances for bees."
+        ]
+    },
+    "23": {
+        "node_name": "ceratopsian, horned dinosaur",
+        "parent_names": [
+            "ornithischian",
+            "ornithischian dinosaur"
+        ],
+        "child_names": [
+            "triceratops"
+        ],
+        "candidate_sentences": [
+            "a triceratops, which is a ceratopsian, horned dinosaur, which is a ornithischian",
+            "a triceratops, which is a ceratopsian, horned dinosaur, which is a ornithischian dinosaur"
+        ],
+        "detail_sentences": [
+            "A ceratopsian, horned dinosaur is characterized by a large, bony frill at the back of the head, typically paired with one or more facial horns above the eyes. It has a beak-like mouth with flat, cheek teeth for vegetation. Its body is robust, with a sturdy stance."
+        ]
+    },
+    "24": {
+        "node_name": "American Staffordshire terrier, Staffordshire terrier, American pit bull terrier, pit bull terrier",
+        "parent_names": [
+            "bullterrier",
+            "bull terrier"
+        ],
+        "child_names": [],
+        "candidate_sentences": [
+            "a American Staffordshire terrier, Staffordshire terrier, American pit bull terrier, pit bull terrier, which is a bullterrier",
+            "a American Staffordshire terrier, Staffordshire terrier, American pit bull terrier, pit bull terrier, which is a bull terrier"
+        ],
+        "detail_sentences": [
+            "The American Staffordshire terrier and pit bull terrier are medium-sized dogs with a muscular build, short coat, and broad, powerful head. They have distinct wide-set eyes, a wide mouth with a pronounced jaw, and their ears can be either cropped or naturally folded."
+        ]
+    },
+    "25": {
+        "node_name": "hourglass",
+        "parent_names": [
+            "sandglass"
+        ],
+        "child_names": [],
+        "candidate_sentences": [
+            "a hourglass, which is a sandglass"
+        ],
+        "detail_sentences": [
+            "An 'hourglass' is characterized by its symmetrical, inverted bell-shaped structure with a narrow middle section. Its distinguishing visual features include two bulbous ends connected by a thinner, constricted center, often transparent, and sometimes containing sand or other particles that flow from one end to the other."
+        ]
+    },
+    "26": {
+        "node_name": "cabbage butterfly",
+        "parent_names": [
+            "pierid",
+            "pierid butterfly"
+        ],
+        "child_names": [],
+        "candidate_sentences": [
+            "a cabbage butterfly, which is a pierid",
+            "a cabbage butterfly, which is a pierid butterfly"
+        ],
+        "detail_sentences": [
+            "The cabbage butterfly has white wings with distinct black spots near the edges. Its forewings are triangular with a slightly pointed tip, while its hindwings are rounded. It also features prominent dark veins running across its wings, differentiating it from other butterflies with similar coloration."
+        ]
+    },
+    "27": {
+        "node_name": "Welsh terrier",
+        "parent_names": [
+            "wirehair",
+            "wirehaired terrier",
+            "wire-haired terrier"
+        ],
+        "child_names": [
+            "Sealyham terrier",
+            "Sealyham"
+        ],
+        "candidate_sentences": [
+            "a Sealyham terrier, which is a Welsh terrier, which is a wirehair",
+            "a Sealyham, which is a Welsh terrier, which is a wirehair",
+            "a Sealyham terrier, which is a Welsh terrier, which is a wirehaired terrier",
+            "a Sealyham, which is a Welsh terrier, which is a wirehaired terrier",
+            "a Sealyham terrier, which is a Welsh terrier, which is a wire-haired terrier",
+            "a Sealyham, which is a Welsh terrier, which is a wire-haired terrier"
+        ],
+        "detail_sentences": [
+            "A Welsh Terrier is a medium-sized dog with a dense, wiry black-and-tan coat. It has a rectangular-shaped head with small, dark, almond-shaped eyes, and V-shaped ears that fold forward. Its body is compact and sturdy, with straight, muscular legs."
+        ]
+    },
+    "28": {
+        "node_name": "agama",
+        "parent_names": [
+            "agamid",
+            "agamid lizard"
+        ],
+        "child_names": [],
+        "candidate_sentences": [
+            "a agama, which is a agamid",
+            "a agama, which is a agamid lizard"
+        ],
+        "detail_sentences": [
+            "Agama is a type of lizard characterized by its elongated body, distinct head shape, and bright coloration, which often includes shades of blue, red, or orange. They typically possess a spiny tail and scales that can appear granular."
+        ]
+    },
+    "29": {
+        "node_name": "European gallinule, Porphyrio porphyrio",
+        "parent_names": [
+            "purple gallinule"
+        ],
+        "child_names": [],
+        "candidate_sentences": [
+            "a European gallinule, Porphyrio porphyrio, which is a purple gallinule"
+        ],
+        "detail_sentences": [
+            "The European gallinule (Porphyrio porphyrio) has a vibrant blue and purple plumage, a red frontal shield, and long, bright orange-yellow legs. Its large, rounded body and distinctive, long toes set it apart from similar waterfowl species."
+        ]
+    },
+    "30": {
+        "node_name": "digital watch",
+        "parent_names": [
+            "watch",
+            "ticker"
+        ],
+        "child_names": [],
+        "candidate_sentences": [
+            "a digital watch, which is a watch",
+            "a digital watch, which is a ticker"
+        ],
+        "detail_sentences": [
+            "A digital watch features a rectangular or round display with numbers or symbols showing time digitally. It has a smooth, often metallic or plastic casing, with a strap made of rubber, leather, or metal. The display is typically illuminated and shows digits, unlike analog or smartwatches with hands or screens."
+        ]
+    },
+    "31": {
+        "node_name": "American egret, great white heron, Egretta albus",
+        "parent_names": [
+            "egret"
+        ],
+        "child_names": [],
+        "candidate_sentences": [
+            "a American egret, great white heron, Egretta albus, which is a egret"
+        ],
+        "detail_sentences": [
+            "The American egret (Egretta albus) is a large, all-white heron with long, slender legs and a sharp, yellow bill. Its distinctive features include long, graceful necks, a relatively small head compared to the body, and feather plumes during breeding season."
+        ]
+    },
+    "32": {
+        "node_name": "panpipe, pandean pipe, syrinx",
+        "parent_names": [
+            "pipe"
+        ],
+        "child_names": [],
+        "candidate_sentences": [
+            "a panpipe, pandean pipe, syrinx, which is a pipe"
+        ],
+        "detail_sentences": [
+            "The panpipe (syrinx) consists of multiple tubes of varying lengths, typically arranged in a row. It is distinguished by its open-ended, cylindrical shape and its lack of a mouthpiece. The tubes are often made from wood, bamboo, or other materials, and are aligned horizontally or slightly angled."
+        ]
+    },
+    "33": {
+        "node_name": "rhinoceros beetle",
+        "parent_names": [
+            "scarabaeid beetle",
+            "scarabaeid",
+            "scarabaean"
+        ],
+        "child_names": [],
+        "candidate_sentences": [
+            "a rhinoceros beetle, which is a scarabaeid beetle",
+            "a rhinoceros beetle, which is a scarabaeid",
+            "a rhinoceros beetle, which is a scarabaean"
+        ],
+        "detail_sentences": [
+            "A rhinoceros beetle is a large insect characterized by its shiny, dark exterior, a thick exoskeleton, and a prominent horn-like structure on its head, which is often larger in males. Its body is segmented into three parts: head, thorax, and abdomen."
+        ]
+    },
+    "34": {
+        "node_name": "Welsh springer spaniel",
+        "parent_names": [
+            "springer spaniel",
+            "springer"
+        ],
+        "child_names": [],
+        "candidate_sentences": [
+            "a Welsh springer spaniel, which is a springer spaniel",
+            "a Welsh springer spaniel, which is a springer"
+        ],
+        "detail_sentences": [
+            "A Welsh Springer Spaniel is a medium-sized dog with a distinctive red and white coat. It has long, pendulous ears and a moderately long tail. Its eyes are hazel or dark in color and it has a compact, balanced body structure."
+        ]
+    },
+    "35": {
+        "node_name": "miniature schnauzer",
+        "parent_names": [
+            "schnauzer"
+        ],
+        "child_names": [],
+        "candidate_sentences": [
+            "a miniature schnauzer, which is a schnauzer"
+        ],
+        "detail_sentences": [
+            "A Miniature Schnauzer is a small, sturdy dog with a squared build. It has distinct bushy eyebrows, a beard, and a double coat with a wiry outer layer. The coat color is often salt-and-pepper, black, or white."
+        ]
+    },
+    "36": {
+        "node_name": "sulphur-crested cockatoo, Kakatoe galerita, Cacatua galerita",
+        "parent_names": [
+            "cockatoo"
+        ],
+        "child_names": [],
+        "candidate_sentences": [
+            "a sulphur-crested cockatoo, Kakatoe galerita, Cacatua galerita, which is a cockatoo"
+        ],
+        "detail_sentences": [
+            "The sulphur-crested cockatoo is a large white bird, distinguished by its prominent, yellow, backward-curving crest. It has a strong, curved beak, and its underwing and tail feathers exhibit yellow tint. Its eyes are encircled by a blue eye-ring."
+        ]
+    },
+    "37": {
+        "node_name": "cheeseburger",
+        "parent_names": [
+            "hamburger",
+            "beefburger",
+            "burger"
+        ],
+        "child_names": [],
+        "candidate_sentences": [
+            "a cheeseburger, which is a hamburger",
+            "a cheeseburger, which is a beefburger",
+            "a cheeseburger, which is a burger"
+        ],
+        "detail_sentences": [
+            "A cheeseburger typically features a round, golden-brown bun, a visible slice of melted cheese on a beef patty, and often a contrasting layer of vegetables like lettuce and tomato. Its defining attribute is the cheese melting over the patty, creating a distinct, glossy appearance."
+        ]
+    },
+    "38": {
+        "node_name": "loupe, jeweler's loupe",
+        "parent_names": [
+            "hand glass",
+            "simple microscope",
+            "magnifying glass"
+        ],
+        "child_names": [],
+        "candidate_sentences": [
+            "a loupe, jeweler's loupe, which is a hand glass",
+            "a loupe, jeweler's loupe, which is a simple microscope",
+            "a loupe, jeweler's loupe, which is a magnifying glass"
+        ],
+        "detail_sentences": [
+            "A jeweler's loupe is a small, often circular, handheld magnifying tool. Distinguished by its high magnification lens, it usually has a foldable design for protection. Its exterior is typically metallic, often silver or black."
+        ]
+    },
+    "39": {
+        "node_name": "container ship, containership, container vessel",
+        "parent_names": [
+            "cargo ship",
+            "cargo vessel"
+        ],
+        "child_names": [],
+        "candidate_sentences": [
+            "a container ship, containership, container vessel, which is a cargo ship",
+            "a container ship, containership, container vessel, which is a cargo vessel"
+        ],
+        "detail_sentences": [
+            "A container ship is a large, elongated maritime vessel with a flat deck featuring vertically stacked, uniformly sized rectangular containers. Its distinguishing features include a towering superstructure at the rear end and a bulbous bow at the front for improved hydrodynamics."
+        ]
+    },
+    "40": {
+        "node_name": "alligator lizard",
+        "parent_names": [
+            "anguid lizard"
+        ],
+        "child_names": [],
+        "candidate_sentences": [
+            "a alligator lizard, which is a anguid lizard"
+        ],
+        "detail_sentences": [
+            "Alligator lizards are elongated reptiles with a distinctly tapered tail, rough scales resembling an alligator's skin, and a head slightly wider than the neck. They exhibit a range of colors, primarily brown or green, often with dark, lateral stripe patterns."
+        ]
+    },
+    "41": {
+        "node_name": "Gila monster, Heloderma suspectum",
+        "parent_names": [
+            "venomous lizard"
+        ],
+        "child_names": [],
+        "candidate_sentences": [
+            "a Gila monster, Heloderma suspectum, which is a venomous lizard"
+        ],
+        "detail_sentences": [
+            "The Gila monster, Heloderma suspectum, is a large, heavy-bodied lizard with a distinct bumpy, bead-like skin texture. It features a vibrant pattern of pinkish-orange and black bands across its body. The lizard has a broad head and a thick, stout tail."
+        ]
+    },
+    "42": {
+        "node_name": "miniature poodle",
+        "parent_names": [
+            "poodle",
+            "poodle dog"
+        ],
+        "child_names": [],
+        "candidate_sentences": [
+            "a miniature poodle, which is a poodle",
+            "a miniature poodle, which is a poodle dog"
+        ],
+        "detail_sentences": [
+            "A miniature poodle is a small to medium-sized dog with a curly, dense coat, often groomed into distinctive patterns. It has a proportionally small, rounded skull, long, flat ears, and a docked, fluffy tail. Its eyes are oval-shaped and dark."
+        ]
+    },
+    "43": {
+        "node_name": "lorikeet",
+        "parent_names": [
+            "lory"
+        ],
+        "child_names": [],
+        "candidate_sentences": [
+            "a lorikeet, which is a lory"
+        ],
+        "detail_sentences": [
+            "A lorikeet is a small, colorful parrot with vibrant plumage, often displaying a mix of green, red, yellow, and blue. Its distinguishing features include a predominantly bright, rainbow-like pattern, a small, stout beak, and a relatively short tail compared to other parrots."
+        ]
+    },
+    "44": {
+        "node_name": "bell pepper",
+        "parent_names": [
+            "sweet pepper"
+        ],
+        "child_names": [],
+        "candidate_sentences": [
+            "a bell pepper, which is a sweet pepper"
+        ],
+        "detail_sentences": [
+            "A bell pepper is a glossy, plump vegetable with a distinctive bell shape. It has a thick, smooth skin that comes in various colors, predominantly green, red, yellow, or orange. It features a rounded top with a green stem."
+        ]
+    },
+    "45": {
+        "node_name": "park bench",
+        "parent_names": [
+            "bench"
+        ],
+        "child_names": [],
+        "candidate_sentences": [
+            "a park bench, which is a bench"
+        ],
+        "detail_sentences": [
+            "A park bench is a long, usually wooden or metal seat, often with a backrest, designed for multiple people. It is typically placed outdoors in public areas. It is distinguished by its horizontal seating surface and vertical supports at the ends."
+        ]
+    },
+    "46": {
+        "node_name": "Indian cobra, Naja naja",
+        "parent_names": [
+            "cobra"
+        ],
+        "child_names": [],
+        "candidate_sentences": [
+            "a Indian cobra, Naja naja, which is a cobra"
+        ],
+        "detail_sentences": [
+            "The Indian cobra, Naja naja, features a broad hood, often displaying a distinctive pattern resembling spectacles or eyes. Its body color varies from light yellowish to dark brown. It usually has smooth scales and an average length of 1.9 meters."
+        ]
+    },
+    "47": {
+        "node_name": "boathouse",
+        "parent_names": [
+            "shed"
+        ],
+        "child_names": [],
+        "candidate_sentences": [
+            "a boathouse, which is a shed"
+        ],
+        "detail_sentences": [
+            "A boathouse typically features a waterfront location, with large doors or openings for boat storage, often made of wood or metal. It has a sloped roof, sometimes gabled, and may include a dock or pier extending from the structure. Its design is functional for watercraft access."
+        ]
+    },
+    "48": {
+        "node_name": "Cardigan, Cardigan Welsh corgi",
+        "parent_names": [
+            "corgi",
+            "Welsh corgi"
+        ],
+        "child_names": [],
+        "candidate_sentences": [
+            "a Cardigan, Cardigan Welsh corgi, which is a corgi",
+            "a Cardigan, Cardigan Welsh corgi, which is a Welsh corgi"
+        ],
+        "detail_sentences": [
+            "The Cardigan Welsh Corgi is a small, sturdy dog breed with distinct long body, short legs, and large, erect ears. It has a thick double coat that varies in colors, and a bushy, fox-like tail. Its eyes are medium-sized and dark, expressing an intelligent and alert look."
+        ]
+    },
+    "49": {
+        "node_name": "stupa, tope",
+        "parent_names": [
+            "shrine"
+        ],
+        "child_names": [],
+        "candidate_sentences": [
+            "a stupa, tope, which is a shrine"
+        ],
+        "detail_sentences": [
+            "A 'stupa, tope' is a dome-shaped Buddhist monument, often large and made of stone. It's characterized by its semi-spherical base, a squared or cylindrical harmika on top, and a spire with multiple disc-like tiers, often ending with a lotus bud or umbrella."
+        ]
+    },
+    "50": {
+        "node_name": "English springer, English springer spaniel",
+        "parent_names": [
+            "springer spaniel",
+            "springer"
+        ],
+        "child_names": [],
+        "candidate_sentences": [
+            "a English springer, English springer spaniel, which is a springer spaniel",
+            "a English springer, English springer spaniel, which is a springer"
+        ],
+        "detail_sentences": [
+            "The English Springer Spaniel is a medium-sized dog with a compact body. Distinguishing features include its long, pendulous ears, a dense, medium-length coat often liver or black with white markings, and a wagging, feathered tail. Its eyes are usually hazel or brown."
+        ]
+    },
+    "51": {
+        "node_name": "yellow lady's slipper, yellow lady-slipper, Cypripedium calceolus, Cypripedium parviflorum",
+        "parent_names": [
+            "lady's slipper",
+            "lady-slipper",
+            "ladies' slipper",
+            "slipper orchid"
+        ],
+        "child_names": [],
+        "candidate_sentences": [
+            "a yellow lady's slipper, yellow lady-slipper, Cypripedium calceolus, Cypripedium parviflorum, which is a lady's slipper",
+            "a yellow lady's slipper, yellow lady-slipper, Cypripedium calceolus, Cypripedium parviflorum, which is a lady-slipper",
+            "a yellow lady's slipper, yellow lady-slipper, Cypripedium calceolus, Cypripedium parviflorum, which is a ladies' slipper",
+            "a yellow lady's slipper, yellow lady-slipper, Cypripedium calceolus, Cypripedium parviflorum, which is a slipper orchid"
+        ],
+        "detail_sentences": [
+            "'Yellow lady's slipper' is a perennial plant with distinctive large, yellow, slipper-shaped flowers. It features two broad, oval leaves and a tall stem. The flower's lip is inflated and twisted, with a reddish-brown, veined exterior, and a bright yellow interior."
+        ]
+    },
+    "52": {
+        "node_name": "standard schnauzer",
+        "parent_names": [
+            "schnauzer"
+        ],
+        "child_names": [],
+        "candidate_sentences": [
+            "a standard schnauzer, which is a schnauzer"
+        ],
+        "detail_sentences": [
+            "A standard schnauzer is a medium-sized dog with a robust, square build. Distinguishing features include dense, wiry fur, especially the distinctive bushy eyebrows and beard, and high-set, cropped or natural, folded ears. It has a salt-and-pepper or black coat."
+        ]
+    },
+    "53": {
+        "node_name": "papillon",
+        "parent_names": [
+            "toy spaniel"
+        ],
+        "child_names": [],
+        "candidate_sentences": [
+            "a papillon, which is a toy spaniel"
+        ],
+        "detail_sentences": [
+            "A 'papillon' is a small dog breed with a distinctive butterfly-like look due to its large, erect, rounded ears fringed with long hair. It has a fine-boned structure, a plumed tail arching over its body, and a long, silky coat but no undercoat."
+        ]
+    },
+    "54": {
+        "node_name": "sidewinder, horned rattlesnake, Crotalus cerastes",
+        "parent_names": [
+            "rattlesnake",
+            "rattler"
+        ],
+        "child_names": [],
+        "candidate_sentences": [
+            "a sidewinder, horned rattlesnake, Crotalus cerastes, which is a rattlesnake",
+            "a sidewinder, horned rattlesnake, Crotalus cerastes, which is a rattler"
+        ],
+        "detail_sentences": [
+            "The Sidewinder rattlesnake (Crotalus cerastes) has a distinctive light-colored, tan or grayish body with dark, jagged patterns. Notably, it has a triangular head and horn-like scales above its eyes. It also moves sideways in an \"S\" shape, unlike other rattlesnakes. Its tail has a prominent rattle."
+        ]
+    },
+    "55": {
+        "node_name": "whiptail, whiptail lizard",
+        "parent_names": [
+            "teiid lizard",
+            "teiid"
+        ],
+        "child_names": [],
+        "candidate_sentences": [
+            "a whiptail, whiptail lizard, which is a teiid lizard",
+            "a whiptail, whiptail lizard, which is a teiid"
+        ],
+        "detail_sentences": [
+            "The whiptail lizard has a long, slender body, a distinct whip-like tail, and smooth, often greenish or brownish skin. Its legs are relatively short, and it typically has a triangular head. These features differentiate it from other lizards, which may have stockier bodies or shorter tails."
+        ]
+    },
+    "56": {
+        "node_name": "admiral",
+        "parent_names": [
+            "nymphalid",
+            "nymphalid butterfly",
+            "brush-footed butterfly",
+            "four-footed butterfly"
+        ],
+        "child_names": [],
+        "candidate_sentences": [
+            "a admiral, which is a nymphalid",
+            "a admiral, which is a nymphalid butterfly",
+            "a admiral, which is a brush-footed butterfly",
+            "a admiral, which is a four-footed butterfly"
+        ],
+        "detail_sentences": [
+            "An \"admiral\" butterfly has a distinctive dark brown or black body with bold white and orange markings on the wings. The forewings feature a triangular white band, while the hindwings are orange with black spots. Its contrasting coloration differentiates it from similar butterfly species."
+        ]
+    },
+    "57": {
+        "node_name": "American lobster, Northern lobster, Maine lobster, Homarus americanus",
+        "parent_names": [
+            "true lobster"
+        ],
+        "child_names": [],
+        "candidate_sentences": [
+            "a American lobster, Northern lobster, Maine lobster, Homarus americanus, which is a true lobster"
+        ],
+        "detail_sentences": [
+            "The Homarus americanus, or American lobster, has a large, heavy exoskeleton, long antennae, and two large claws, one of which is noticeably larger. It is typically dark greenish-blue to brownish-red, with a segmented body and tail."
+        ]
+    },
+    "58": {
+        "node_name": "stopwatch, stop watch",
+        "parent_names": [
+            "timer"
+        ],
+        "child_names": [],
+        "candidate_sentences": [
+            "a stopwatch, stop watch, which is a timer"
+        ],
+        "detail_sentences": [
+            "A stopwatch is a handheld timepiece with two circular dials, one for seconds and one for minutes. It has buttons on top for starting, stopping, and resetting. It's often metallic or plastic, with a lanyard for easy carrying."
+        ]
+    },
+    "59": {
+        "node_name": "grand piano, grand",
+        "parent_names": [
+            "piano",
+            "pianoforte",
+            "forte-piano"
+        ],
+        "child_names": [],
+        "candidate_sentences": [
+            "a grand piano, grand, which is a piano",
+            "a grand piano, grand, which is a pianoforte",
+            "a grand piano, grand, which is a forte-piano"
+        ],
+        "detail_sentences": [
+            "A grand piano features a large, curved wooden body with a wide, horizontal shape. Its lid is typically raised at an angle, revealing the black and white keys. The elegant, polished finish and extended size distinguish it from upright pianos and other keyboard instruments."
+        ]
+    },
+    "60": {
+        "node_name": "French bulldog",
+        "parent_names": [
+            "bulldog",
+            "English bulldog"
+        ],
+        "child_names": [],
+        "candidate_sentences": [
+            "a French bulldog, which is a bulldog",
+            "a French bulldog, which is a English bulldog"
+        ],
+        "detail_sentences": [
+            "A French Bulldog is a small, muscular dog breed with a short, smooth coat. Its distinguishing features include large, bat-like ears, a flat, squashed face with a short snout, and a compact, sturdy body."
+        ]
+    },
+    "61": {
+        "node_name": "sweatshirt",
+        "parent_names": [
+            "pullover",
+            "slipover"
+        ],
+        "child_names": [],
+        "candidate_sentences": [
+            "a sweatshirt, which is a pullover",
+            "a sweatshirt, which is a slipover"
+        ],
+        "detail_sentences": [
+            "A sweatshirt is a long-sleeved, pullover garment, often made from thick, soft fabric. It typically has a loose fit, a round neckline without a collar, and elastic or ribbed cuffs and waistband. Some variants may feature a front pocket or hood."
+        ]
+    },
+    "62": {
+        "node_name": "rock python, rock snake, Python sebae",
+        "parent_names": [
+            "python"
+        ],
+        "child_names": [],
+        "candidate_sentences": [
+            "a rock python, rock snake, Python sebae, which is a python"
+        ],
+        "detail_sentences": [
+            "The rock python, or Python sebae, is a large, heavy-bodied snake with a thick, square-shaped head. It has a distinctive pattern of irregular, dark brown blotches on a light brown or yellowish background, with a white underbelly."
+        ]
+    },
+    "63": {
+        "node_name": "African chameleon, Chamaeleo chamaeleon",
+        "parent_names": [
+            "chameleon",
+            "chamaeleon"
+        ],
+        "child_names": [],
+        "candidate_sentences": [
+            "a African chameleon, Chamaeleo chamaeleon, which is a chameleon",
+            "a African chameleon, Chamaeleo chamaeleon, which is a chamaeleon"
+        ],
+        "detail_sentences": [
+            "The African chameleon (Chamaeleo chamaeleon) has a distinctive, elongated body with a prehensile tail, large, bulging eyes that move independently, and a unique color-changing ability. Its rough, spiny crest runs along its back, and it exhibits vibrant green, brown, or yellow coloration."
+        ]
+    },
+    "64": {
+        "node_name": "aircraft carrier, carrier, flattop, attack aircraft carrier",
+        "parent_names": [
+            "warship",
+            "war vessel",
+            "combat ship"
+        ],
+        "child_names": [],
+        "candidate_sentences": [
+            "a aircraft carrier, carrier, flattop, attack aircraft carrier, which is a warship",
+            "a aircraft carrier, carrier, flattop, attack aircraft carrier, which is a war vessel",
+            "a aircraft carrier, carrier, flattop, attack aircraft carrier, which is a combat ship"
+        ],
+        "detail_sentences": [
+            "An aircraft carrier is a large, flat-decked ship with a runway, distinctive island superstructure on one side, and multiple aircraft parked or in operation. It has a vast, unobstructed deck and often displays prominent hull numbers."
+        ]
+    },
+    "65": {
+        "node_name": "Pembroke, Pembroke Welsh corgi",
+        "parent_names": [
+            "corgi",
+            "Welsh corgi"
+        ],
+        "child_names": [],
+        "candidate_sentences": [
+            "a Pembroke, Pembroke Welsh corgi, which is a corgi",
+            "a Pembroke, Pembroke Welsh corgi, which is a Welsh corgi"
+        ],
+        "detail_sentences": [
+            "The Pembroke Welsh Corgi is a small, sturdy dog breed with distinct short legs, a long body, and erect ears. Notably, it has a fox-like face and is tailless or has a very short tail, unlike the similar Cardigan Welsh Corgi."
+        ]
+    },
+    "66": {
+        "node_name": "catamaran",
+        "parent_names": [
+            "sailboat",
+            "sailing boat"
+        ],
+        "child_names": [],
+        "candidate_sentences": [
+            "a catamaran, which is a sailboat",
+            "a catamaran, which is a sailing boat"
+        ],
+        "detail_sentences": [
+            "A catamaran features two parallel hulls, a wide, flat deck, and often a pronounced central bridge. Unlike monohull boats, its twin-hull design offers stability, and it typically has a more expansive, open deck compared to similar vessels like yachts or sailboats."
+        ]
+    },
+    "67": {
+        "node_name": "frilled lizard, Chlamydosaurus kingi",
+        "parent_names": [
+            "agamid",
+            "agamid lizard"
+        ],
+        "child_names": [],
+        "candidate_sentences": [
+            "a frilled lizard, Chlamydosaurus kingi, which is a agamid",
+            "a frilled lizard, Chlamydosaurus kingi, which is a agamid lizard"
+        ],
+        "detail_sentences": [
+            "The frilled lizard, Chlamydosaurus kingi, is distinguished by its large fringed collar around the neck, elongated body, and bipedal locomotion. It has a predominantly grey-brown color with occasional patches of orange and red, especially on the frill."
+        ]
+    },
+    "68": {
+        "node_name": "giant schnauzer",
+        "parent_names": [
+            "schnauzer"
+        ],
+        "child_names": [],
+        "candidate_sentences": [
+            "a giant schnauzer, which is a schnauzer"
+        ],
+        "detail_sentences": [
+            "A Giant Schnauzer is a large breed dog with a strong, compact build. It has a distinctive bushy beard and eyebrows, and a dense, wiry black or pepper-and-salt coat. Its ears are typically cropped to stand erect, and it has a natural tail."
+        ]
+    },
+    "69": {
+        "node_name": "leatherback turtle, leatherback, leathery turtle, Dermochelys coriacea",
+        "parent_names": [
+            "sea turtle",
+            "marine turtle"
+        ],
+        "child_names": [],
+        "candidate_sentences": [
+            "a leatherback turtle, leatherback, leathery turtle, Dermochelys coriacea, which is a sea turtle",
+            "a leatherback turtle, leatherback, leathery turtle, Dermochelys coriacea, which is a marine turtle"
+        ],
+        "detail_sentences": [
+            "The leatherback turtle is the largest sea turtle, distinguishable by its dark, rubbery skin without scales, teardrop-shaped body, and seven distinct ridges running longitudinally on its carapace. Its flippers are long, paddle-like, and lack claws."
+        ]
+    },
+    "70": {
+        "node_name": "green lizard, Lacerta viridis",
+        "parent_names": [
+            "lacertid lizard",
+            "lacertid"
+        ],
+        "child_names": [],
+        "candidate_sentences": [
+            "a green lizard, Lacerta viridis, which is a lacertid lizard",
+            "a green lizard, Lacerta viridis, which is a lacertid"
+        ],
+        "detail_sentences": [
+            "'Green lizard, Lacerta viridis' is a bright green, medium-sized lizard with a long, slender body. It has a distinct yellowish underbelly, a blue throat in males, and prominent scales on the back and tail."
+        ]
+    },
+    "71": {
+        "node_name": "Granny Smith",
+        "parent_names": [
+            "eating apple",
+            "dessert apple"
+        ],
+        "child_names": [],
+        "candidate_sentences": [
+            "a Granny Smith, which is a eating apple",
+            "a Granny Smith, which is a dessert apple"
+        ],
+        "detail_sentences": [
+            "'Granny Smith' is a type of apple characterized by its vivid green skin, medium to large size, and round shape. It has a shiny, smooth surface and a slightly elongated stem."
+        ]
+    },
+    "72": {
+        "node_name": "eft",
+        "parent_names": [
+            "newt",
+            "triton"
+        ],
+        "child_names": [],
+        "candidate_sentences": [
+            "a eft, which is a newt",
+            "a eft, which is a triton"
+        ],
+        "detail_sentences": [
+            "An eft is a juvenile stage of a newt, distinguishable by its bright orange-red color, rough skin texture, and visible external gills. Unlike adult newts, efts are terrestrial and have a slender body shape."
+        ]
+    },
+    "73": {
+        "node_name": "assault rifle, assault gun",
+        "parent_names": [
+            "automatic firearm",
+            "automatic gun",
+            "automatic weapon"
+        ],
+        "child_names": [],
+        "candidate_sentences": [
+            "a assault rifle, assault gun, which is a automatic firearm",
+            "a assault rifle, assault gun, which is a automatic gun",
+            "a assault rifle, assault gun, which is a automatic weapon"
+        ],
+        "detail_sentences": [
+            "An assault rifle is a long-barreled firearm, typically featuring a detachable magazine, a pistol grip, and a selective fire option. It often has a shoulder stock for stability and may exhibit a foregrip or accessory rails."
+        ]
+    },
+    "74": {
+        "node_name": "upright, upright piano",
+        "parent_names": [
+            "piano",
+            "pianoforte",
+            "forte-piano"
+        ],
+        "child_names": [],
+        "candidate_sentences": [
+            "a upright, upright piano, which is a piano",
+            "a upright, upright piano, which is a pianoforte",
+            "a upright, upright piano, which is a forte-piano"
+        ],
+        "detail_sentences": [
+            "An upright piano is a large, tall rectangular musical instrument with a flat back standing vertically. It has a wooden exterior, typically black or brown, with white and black keys in a single horizontal row and foot pedals at the bottom."
+        ]
+    },
+    "75": {
+        "node_name": "dung beetle",
+        "parent_names": [
+            "scarabaeid beetle",
+            "scarabaeid",
+            "scarabaean"
+        ],
+        "child_names": [],
+        "candidate_sentences": [
+            "a dung beetle, which is a scarabaeid beetle",
+            "a dung beetle, which is a scarabaeid",
+            "a dung beetle, which is a scarabaean"
+        ],
+        "detail_sentences": [
+            "The dung beetle has a robust, dark-colored, glossy body with a distinct dome-shaped thorax. Its large, curved horns (in some species) are prominent, especially on males. Additionally, its legs are adapted for digging, with strong, spade-like hind legs."
+        ]
+    },
+    "76": {
+        "node_name": "Staffordshire bullterrier, Staffordshire bull terrier",
+        "parent_names": [
+            "bullterrier",
+            "bull terrier"
+        ],
+        "child_names": [],
+        "candidate_sentences": [
+            "a Staffordshire bullterrier, Staffordshire bull terrier, which is a bullterrier",
+            "a Staffordshire bullterrier, Staffordshire bull terrier, which is a bull terrier"
+        ],
+        "detail_sentences": [
+            "The Staffordshire Bull Terrier has a compact, muscular build with a broad chest. It features a short, smooth coat typically in brindle, black, or fawn colors. Its distinctively wide, rounded head and prominent, dark, round eyes set it apart from similar breeds."
+        ]
+    },
+    "77": {
+        "node_name": "spaghetti squash",
+        "parent_names": [
+            "summer squash"
+        ],
+        "child_names": [],
+        "candidate_sentences": [
+            "a spaghetti squash, which is a summer squash"
+        ],
+        "detail_sentences": [
+            "Spaghetti squash is elongated with a pale yellow to cream-colored skin. It has a ridged, oval shape and a firm, slightly bumpy texture. Unlike other squashes, its skin is thinner, and when cooked, the flesh separates into string-like strands resembling spaghetti."
+        ]
+    },
+    "78": {
+        "node_name": "trench coat",
+        "parent_names": [
+            "raincoat",
+            "waterproof"
+        ],
+        "child_names": [],
+        "candidate_sentences": [
+            "a trench coat, which is a raincoat",
+            "a trench coat, which is a waterproof"
+        ],
+        "detail_sentences": [
+            "A trench coat is a long, double-breasted coat with wide lapels, a belted waist, and often epaulets on the shoulders. It typically features a knee-length or longer cut and is made of water-resistant fabric, distinguishing it from other coats with its military-inspired design and tailored fit."
+        ]
+    },
+    "79": {
+        "node_name": "corkscrew, bottle screw",
+        "parent_names": [
+            "bottle opener"
+        ],
+        "child_names": [],
+        "candidate_sentences": [
+            "a corkscrew, bottle screw, which is a bottle opener"
+        ],
+        "detail_sentences": [
+            "A corkscrew, or bottle screw, has a spiral metal shaft with a pointed end, typically with a handle or knob for twisting. It\u2019s often compact, with a straight or slightly curved body. The distinguishing feature is the helix, which distinguishes it from other kitchen tools like bottle openers."
+        ]
+    },
+    "80": {
+        "node_name": "throne",
+        "parent_names": [
+            "chair of state"
+        ],
+        "child_names": [],
+        "candidate_sentences": [
+            "a throne, which is a chair of state"
+        ],
+        "detail_sentences": [
+            "A throne is a large, often ornate chair, typically elevated and featuring high backrest. It may have armrests and is usually made of rich materials like gold or velvet. Visual embellishments like carvings, jewels, or intricate designs are common."
+        ]
+    },
+    "81": {
+        "node_name": "electric guitar",
+        "parent_names": [
+            "guitar"
+        ],
+        "child_names": [],
+        "candidate_sentences": [
+            "a electric guitar, which is a guitar"
+        ],
+        "detail_sentences": [
+            "An electric guitar is characterized by a solid or semi-solid body, often with a double cutaway design. It has a long, thin neck with frets, and typically has multiple control knobs and pickups, which are absent in acoustic guitars. Its body is usually glossy and comes in various colors."
+        ]
+    },
+    "82": {
+        "node_name": "American chameleon, anole, Anolis carolinensis",
+        "parent_names": [
+            "iguanid",
+            "iguanid lizard"
+        ],
+        "child_names": [],
+        "candidate_sentences": [
+            "a American chameleon, anole, Anolis carolinensis, which is a iguanid",
+            "a American chameleon, anole, Anolis carolinensis, which is a iguanid lizard"
+        ],
+        "detail_sentences": [
+            "The American chameleon, or Anolis carolinensis, is a small lizard with a slender body, long tail, and extended throat fan. It's notable for its ability to change color from green to brown depending on its environment or mood."
+        ]
+    },
+    "83": {
+        "node_name": "moped",
+        "parent_names": [
+            "minibike",
+            "motorbike"
+        ],
+        "child_names": [],
+        "candidate_sentences": [
+            "a moped, which is a minibike",
+            "a moped, which is a motorbike"
+        ],
+        "detail_sentences": [
+            "A moped is a small, motorized vehicle with two wheels, typically featuring a step-through frame. It is distinguished by its combination of pedals (like a bicycle) and a low-powered engine. Compared to similar classes, mopeds often have smaller, thinner tires."
+        ]
+    },
+    "84": {
+        "node_name": "common newt, Triturus vulgaris",
+        "parent_names": [
+            "newt",
+            "triton"
+        ],
+        "child_names": [],
+        "candidate_sentences": [
+            "a common newt, Triturus vulgaris, which is a newt",
+            "a common newt, Triturus vulgaris, which is a triton"
+        ],
+        "detail_sentences": [
+            "The common newt (Triturus vulgaris) has a slender body, olive-brown skin with a yellow or orange belly, and dark spots. Males have a crest along the back and tail during breeding season. Its smooth, elongated tail differentiates it from other amphibians."
+        ]
+    },
+    "85": {
+        "node_name": "butternut squash",
+        "parent_names": [
+            "winter squash"
+        ],
+        "child_names": [],
+        "candidate_sentences": [
+            "a butternut squash, which is a winter squash"
+        ],
+        "detail_sentences": [
+            "Butternut squash is a bell-shaped vegetable with a smooth, tan-colored exterior. It has a bulbous bottom end that tapers to a narrower top, and its size is larger compared to most squashes. The surface is matte, not glossy."
+        ]
+    },
+    "86": {
+        "node_name": "worm fence, snake fence, snake-rail fence, Virginia fence",
+        "parent_names": [
+            "rail fence"
+        ],
+        "child_names": [],
+        "candidate_sentences": [
+            "a worm fence, snake fence, snake-rail fence, Virginia fence, which is a rail fence"
+        ],
+        "detail_sentences": [
+            "A 'worm fence', also known as a 'snake fence', 'snake-rail fence', or 'Virginia fence', is a type of rustic, zig-zag patterned fence made from wooden rails. Distinguishing features include its lack of vertical posts, its crisscross design, and the uneven, natural look of the wood."
+        ]
+    },
+    "87": {
+        "node_name": "Brabancon griffon",
+        "parent_names": [
+            "griffon",
+            "Brussels griffon",
+            "Belgian griffon"
+        ],
+        "child_names": [],
+        "candidate_sentences": [
+            "a Brabancon griffon, which is a griffon",
+            "a Brabancon griffon, which is a Brussels griffon",
+            "a Brabancon griffon, which is a Belgian griffon"
+        ],
+        "detail_sentences": [
+            "The Brabancon Griffon is a small dog breed with distinct physical features including a short, pug-like snout, large round eyes, and a rough, wiry coat. It has noticeable ears that are either cropped or left natural, and its coat color ranges from red, black and tan, to belge."
+        ]
+    },
+    "88": {
+        "node_name": "digital clock",
+        "parent_names": [
+            "clock"
+        ],
+        "child_names": [],
+        "candidate_sentences": [
+            "a digital clock, which is a clock"
+        ],
+        "detail_sentences": [
+            "A digital clock typically features a rectangular or square shape with an LED or LCD screen displaying time in numerical digits. It lacks the traditional circular face and hands found in analog clocks. The display often includes separators (typically two dots) between hours and minutes."
+        ]
+    },
+    "89": {
+        "node_name": "black mamba, Dendroaspis augusticeps",
+        "parent_names": [
+            "mamba"
+        ],
+        "child_names": [
+            "green mamba"
+        ],
+        "candidate_sentences": [
+            "a green mamba, which is a black mamba, Dendroaspis augusticeps, which is a mamba"
+        ],
+        "detail_sentences": [
+            "The black mamba (Dendroaspis augusticeps) is characterized by its elongated, slender body, smooth scales, and distinctive gray to olive-brown coloration with a pale underside. Its head is narrow with a distinct, slightly flattened shape. Notably, it has a dark mouth interior, which is unique among similar snakes."
+        ]
+    },
+    "90": {
+        "node_name": "Lakeland terrier",
+        "parent_names": [
+            "wirehair",
+            "wirehaired terrier",
+            "wire-haired terrier"
+        ],
+        "child_names": [],
+        "candidate_sentences": [
+            "a Lakeland terrier, which is a wirehair",
+            "a Lakeland terrier, which is a wirehaired terrier",
+            "a Lakeland terrier, which is a wire-haired terrier"
+        ],
+        "detail_sentences": [
+            "The Lakeland Terrier has a compact, square-shaped body with a distinct, wiry coat, typically tan with a black saddle. Its head is narrow with a flat skull, and it has V-shaped ears. The tail is moderately long, carried high, and often slightly curved."
+        ]
+    },
+    "91": {
+        "node_name": "banded gecko",
+        "parent_names": [
+            "gecko"
+        ],
+        "child_names": [],
+        "candidate_sentences": [
+            "a banded gecko, which is a gecko"
+        ],
+        "detail_sentences": [
+            "The banded gecko has a slender body with distinct horizontal bands across its back, typically yellow or white. Its tail is slightly fat and tapered, with a pattern that matches the body bands. It also has large, rounded eyes with vertical slit pupils, distinguishing it from other geckos."
+        ]
+    },
+    "92": {
+        "node_name": "Tibetan mastiff",
+        "parent_names": [
+            "mastiff"
+        ],
+        "child_names": [],
+        "candidate_sentences": [
+            "a Tibetan mastiff, which is a mastiff"
+        ],
+        "detail_sentences": [
+            "The Tibetan mastiff is a large, robust dog with a thick, dense double coat, typically in colors like black, tan, or gold. It has a broad head, deep-set eyes, and a prominent mane around its neck, resembling a lion's mane. Its tail is bushy and curls over the back."
+        ]
+    },
+    "93": {
+        "node_name": "loggerhead, loggerhead turtle, Caretta caretta",
+        "parent_names": [
+            "sea turtle",
+            "marine turtle"
+        ],
+        "child_names": [],
+        "candidate_sentences": [
+            "a loggerhead, loggerhead turtle, Caretta caretta, which is a sea turtle",
+            "a loggerhead, loggerhead turtle, Caretta caretta, which is a marine turtle"
+        ],
+        "detail_sentences": [
+            "The loggerhead turtle (Caretta caretta) is distinguished by its large, heart-shaped carapace with a reddish-brown color, a broad, slightly flattened head, and strong, thick jaws. Its limbs are adapted for powerful swimming, and it has distinct, large scales on the front of its face."
+        ]
+    },
+    "94": {
+        "node_name": "monarch, monarch butterfly, milkweed butterfly, Danaus plexippus",
+        "parent_names": [
+            "danaid",
+            "danaid butterfly"
+        ],
+        "child_names": [],
+        "candidate_sentences": [
+            "a monarch, monarch butterfly, milkweed butterfly, Danaus plexippus, which is a danaid",
+            "a monarch, monarch butterfly, milkweed butterfly, Danaus plexippus, which is a danaid butterfly"
+        ],
+        "detail_sentences": [
+            "The Monarch butterfly, Danaus plexippus, is characterized by its bright orange wings with black veins, a black body, and white spots on the wing edges. Unlike similar species, it has two pairs of hindwing veins that run parallel."
+        ]
+    },
+    "95": {
+        "node_name": "American coot, marsh hen, mud hen, water hen, Fulica americana",
+        "parent_names": [
+            "coot"
+        ],
+        "child_names": [],
+        "candidate_sentences": [
+            "a American coot, marsh hen, mud hen, water hen, Fulica americana, which is a coot"
+        ],
+        "detail_sentences": [
+            "The American coot is a water bird with a slate-gray body, white bill, and red eyes. It has lobed toes, rather than webbed, and a small white tail that often flicks up, distinguishing it from similar waterfowl."
+        ]
+    },
+    "96": {
+        "node_name": "acorn squash",
+        "parent_names": [
+            "winter squash"
+        ],
+        "child_names": [],
+        "candidate_sentences": [
+            "a acorn squash, which is a winter squash"
+        ],
+        "detail_sentences": [
+            "Acorn squash is a small to medium-sized winter squash, typically dark green in color with occasional orange patches. It has a distinct acorn-like shape with a ridged surface and a pointed, slightly curved bottom."
+        ]
+    },
+    "97": {
+        "node_name": "revolver, six-gun, six-shooter",
+        "parent_names": [
+            "pistol",
+            "handgun",
+            "side arm",
+            "shooting iron"
+        ],
+        "child_names": [],
+        "candidate_sentences": [
+            "a revolver, six-gun, six-shooter, which is a pistol",
+            "a revolver, six-gun, six-shooter, which is a handgun",
+            "a revolver, six-gun, six-shooter, which is a side arm",
+            "a revolver, six-gun, six-shooter, which is a shooting iron"
+        ],
+        "detail_sentences": [
+            "A revolver, six-gun, or six-shooter is a handheld firearm characterized by a revolving cylinder containing multiple chambers, typically six, for ammunition. Distinguishing visual features include a short barrel, a curved grip, and a distinct cylinder positioned behind the firing mechanism."
+        ]
+    }
+}

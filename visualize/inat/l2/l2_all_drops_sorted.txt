@@ -1,0 +1,7 @@
+All categories sorted by AP drop for l2:
+Diplopoda 25: Original AP = 37.99, Child Weighted AP = 35.093, Difference = -2.8970
+Echinoidea 50: Original AP = 61.012, Child Weighted AP = 58.796, Difference = -2.2160
+Polyplacophora 25: Original AP = 54.573, Child Weighted AP = 53.474, Difference = -1.0990
+Actinopterygii 175: Original AP = 84.01, Child Weighted AP = 83.798, Difference = -0.2120
+Malacostraca 200: Original AP = 62.186, Child Weighted AP = 61.978, Difference = -0.2080
+Arachnida 650: Original AP = 70.652, Child Weighted AP = 70.465, Difference = -0.1870

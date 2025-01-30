@@ -1,0 +1,2 @@
+All categories sorted by AP drop for l1:
+Chordata 8.5k: Original AP = 35.808, Child Weighted AP = 35.707, Difference = -0.1010

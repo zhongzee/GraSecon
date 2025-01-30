@@ -1,0 +1,13 @@
+All categories sorted by AP rise for l2:
+Bivalvia 50: Original AP = 57.713, Child Weighted AP = 58.73, Difference = 1.0170
+Hydrozoa 50: Original AP = 55.2, Child Weighted AP = 55.677, Difference = 0.4770
+Mammalia 1.5k: Original AP = 58.819, Child Weighted AP = 59.236, Difference = 0.4170
+Chilopoda 25: Original AP = 79.619, Child Weighted AP = 80.0, Difference = 0.3810
+Gastropoda 450: Original AP = 39.118, Child Weighted AP = 39.492, Difference = 0.3740
+Merostomata 25: Original AP = 29.61, Child Weighted AP = 29.928, Difference = 0.3180
+Anthozoa 100: Original AP = 29.189, Child Weighted AP = 29.479, Difference = 0.2900
+Asteroidea 75: Original AP = 79.119, Child Weighted AP = 79.321, Difference = 0.2020
+Reptilia 2.7k: Original AP = 69.822, Child Weighted AP = 69.916, Difference = 0.0940
+Aves 2.6k: Original AP = 95.993, Child Weighted AP = 96.013, Difference = 0.0200
+Insecta 2.3k: Original AP = 87.534, Child Weighted AP = 87.541, Difference = 0.0070
+Amphibia 1.5k: Original AP = 79.499, Child Weighted AP = 79.503, Difference = 0.0040

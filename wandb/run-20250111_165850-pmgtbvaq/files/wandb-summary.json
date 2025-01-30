@@ -1,0 +1,1 @@
+{"Node Name": "Cyprinus carpio", "Category ID": "1", "Level": "l6", "Loss": 16.022235870361328, "Primal Residual": 0.04951386898756027, "Dual Residual": 0.0, "Epoch": 100, "Learning Rate": 0.001, "_timestamp": 1736585940.2492552, "_runtime": 9.545225143432617, "_step": 20, "_wandb": {"runtime": 8}}

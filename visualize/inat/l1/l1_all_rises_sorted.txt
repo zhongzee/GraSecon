@@ -1,0 +1,5 @@
+All categories sorted by AP rise for l1:
+Echinodermata 125: Original AP = 53.694, Child Weighted AP = 54.085, Difference = 0.3910
+Mollusca 525: Original AP = 47.825, Child Weighted AP = 48.145, Difference = 0.3200
+Cnidaria 150: Original AP = 36.131, Child Weighted AP = 36.314, Difference = 0.1830
+Arthropoda 3.2k: Original AP = 78.272, Child Weighted AP = 78.392, Difference = 0.1200

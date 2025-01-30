@@ -1,0 +1,26 @@
+All categories sorted by AP rise for l3:
+Piciformes 25: Original AP = 91.332, Child Weighted AP = 96.0, Difference = 4.6680
+Polydesmida 25: Original AP = 28.689, Child Weighted AP = 31.752, Difference = 3.0630
+Crocodylia 50: Original AP = 69.964, Child Weighted AP = 71.9, Difference = 1.9360
+Perciformes 100: Original AP = 84.36, Child Weighted AP = 85.771, Difference = 1.4110
+Siphonophorae 25: Original AP = 40.302, Child Weighted AP = 41.408, Difference = 1.1060
+Forcipulatida 25: Original AP = 58.43, Child Weighted AP = 59.186, Difference = 0.7560
+Actiniaria 100: Original AP = 10.785, Child Weighted AP = 11.484, Difference = 0.6990
+Chitonida 25: Original AP = 15.937, Child Weighted AP = 16.501, Difference = 0.5640
+Araneae 575: Original AP = 65.902, Child Weighted AP = 66.45, Difference = 0.5480
+Accipitriformes 275: Original AP = 97.154, Child Weighted AP = 97.548, Difference = 0.3940
+Nudibranchia 225: Original AP = 46.761, Child Weighted AP = 47.088, Difference = 0.3270
+Anura 1.1k: Original AP = 85.138, Child Weighted AP = 85.409, Difference = 0.2710
+Hemiptera 75: Original AP = 87.962, Child Weighted AP = 88.228, Difference = 0.2660
+Suliformes 25: Original AP = 98.817, Child Weighted AP = 99.026, Difference = 0.2090
+Odonata 375: Original AP = 88.459, Child Weighted AP = 88.662, Difference = 0.2030
+Scolopendromorpha 25: Original AP = 66.762, Child Weighted AP = 66.946, Difference = 0.1840
+Cingulata 25: Original AP = 99.704, Child Weighted AP = 99.846, Difference = 0.1420
+Caprimulgiformes 175: Original AP = 98.413, Child Weighted AP = 98.546, Difference = 0.1330
+Salmoniformes 50: Original AP = 90.534, Child Weighted AP = 90.628, Difference = 0.0940
+Valvatida 50: Original AP = 90.992, Child Weighted AP = 91.076, Difference = 0.0840
+Lepidoptera 1.1k: Original AP = 95.54, Child Weighted AP = 95.618, Difference = 0.0780
+Charadriiformes 400: Original AP = 97.466, Child Weighted AP = 97.533, Difference = 0.0670
+Stylommatophora 175: Original AP = 62.136, Child Weighted AP = 62.183, Difference = 0.0470
+Megaloptera 25: Original AP = 83.166, Child Weighted AP = 83.19, Difference = 0.0240
+Galliformes 100: Original AP = 97.911, Child Weighted AP = 97.93, Difference = 0.0190
