@@ -1,9 +1,9 @@
 <!-- PROJECT LOGO -->
 
 <p align="center">
-  <h1 align="center"><img src="materials/teaser.png" width="256"></h1>
-  <h1 align="center">UnSec: Semantic Hierarchy Nexus for Open-vocabulary Object Detection</h1>
-  <p align="center">
+  <!-- <h1 align="center"><img src="materials/figure.png" width="256"></h1> -->
+  <h1 align="center">UnSec:Train-Free Robust Open-Vocabulary Object Detection with Universal Semantic Self-Calibration</h1>
+  <!-- <p align="center">
     <a href="https://oatmealliu.github.io/"><strong>Mingxuan Liu</strong></a>
     ·
     <a href="https://tyler-hayes.github.io/"><strong>Tyler L. Hayes</strong></a>
@@ -12,23 +12,23 @@
     ·
     <a href="https://scholar.google.fr/citations?user=PXm1lPAAAAAJ&hl=fr"><strong>Gabriela Csurka</strong></a>
     ·
-    <a href="https://ricvolpi.github.io/"><strong>Riccardo Volpi</strong></a>
+    <a href="https://ricvolpi.github.io/"><strong>Riccardo Volpi</strong></a> -->
   </p>
-  <h2 align="center">CVPR 2024 ✨Highlight✨</h2>
-  <h3 align="center">
+  <!-- <h2 align="center">CVPR 2024 ✨Highlight✨</h2> -->
+  <!-- <h3 align="center">
     <a href="https://arxiv.org/abs/2405.10053">Paper</a> |
     <a href="https://arxiv.org/abs/2405.10053">ArXiv</a> |
     <a href="https://github.com/naver/UnSec">Code</a> |
     <a href="">Poster (coming soon)</a>
-  </h3> 
+  </h3>  -->
 <div align="center"></div>
 <p align="center">
 <p>
 
-<h1 align="center"><img src="materials/approach.png"></h1>
+<h1 align="center"><img src="materials/figure.png"></h1>
 
 
-[//]: # (- [01/15/2024] Our work is accepted to <a href="https://iclr.cc/Conferences/2024"><strong>ICLR 2024</strong></a> 🌼! Code is coming soon. See you in Vienna this May!)
+<!-- [//]: # (- [01/15/2024] Our work is accepted to <a href="https://iclr.cc/Conferences/2024"><strong>ICLR 2024</strong></a> 🌼! Code is coming soon. See you in Vienna this May!) -->
 
 ## Installation
 Requirements:
