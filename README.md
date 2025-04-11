@@ -42,7 +42,7 @@ Requirements:
 Setup environment
 ```shell script
 # Clone this project repository under your workspace folder
-git clone https://github.com/naver/GraSecon.git --recurse-submodules
+git clone https://github.com/xxx/GraSecon.git --recurse-submodules
 cd GraSecon
 # Create conda environment and install the dependencies
 conda env create -n GraSecon -f GraSecon.yml
