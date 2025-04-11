@@ -2,16 +2,16 @@
 
 activateAndRun() {
     # Activate the conda environment
-    conda activate UnSec
+    conda activate GraSecon
 
     # Change to the specified directory, exit if it fails
-    cd UnSec_cls || exit
+    cd GraSecon_cls || exit
 
    # If you wanna test inference speed, change --num_runs to 10
-    python -W ignore zeroshot_UnSec.py \
+    python -W ignore zeroshot_GraSecon.py \
               --model_size "ViT-B/32" \
-              --method "UnSec" \
-              --hierarchy_tree_path "./UnSec_cls/hrchy_imagenet1k/imagenet1k_detail_llm_composed.json" \
+              --method "GraSecon" \
+              --hierarchy_tree_path "./GraSecon_cls/hrchy_imagenet1k/imagenet1k_detail_llm_composed.json" \
               --batch_size 1 \
               --num_runs 10
 }

@@ -76,7 +76,7 @@ INPUT:
   FORMAT: RGB
   CUSTOM_AUG: EfficientDetResizeCrop
   TRAIN_SIZE: 640
-OUTPUT_DIR: "./UnSec/output/Detic/auto"
+OUTPUT_DIR: "./GraSecon/output/Detic/auto"
 EVAL_PROPOSAL_AR: False
 VERSION: 2
 FP16: True

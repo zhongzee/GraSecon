@@ -1,8 +1,8 @@
 #!/bin/bash
 
-conda activate UnSec
+conda activate GraSecon
 
-METADATA_ROOT="./nexus/fsod/vitB32/UnSec_llm"
+METADATA_ROOT="./nexus/fsod/vitB32/GraSecon_llm"
 python train_net_detic.py \
         --num-gpus 1 \
         --config-file ./configs_detic/Detic_DeformDETR_LI_R50_4x_ft4x.yaml \

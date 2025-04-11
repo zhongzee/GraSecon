@@ -3,18 +3,18 @@ import subprocess
 
 def activate_environment_and_move():
     # Activate the conda environment
-    os.system('conda activate UnSec')
+    os.system('conda activate GraSecon')
 
     # Change directory
     try:
-        os.chdir('UnSec')
+        os.chdir('GraSecon')
     except FileNotFoundError:
-        print("Directory 'UnSec' not found. Exiting.")
+        print("Directory 'GraSecon' not found. Exiting.")
         exit()
 
 def build_nexus():
     nexus_paths = {
-        "ViT-B/32": ".././nexus/lvis/UnSec_llm"
+        "ViT-B/32": ".././nexus/lvis/GraSecon_llm"
     }
 
     for clip_model, out_path in nexus_paths.items():

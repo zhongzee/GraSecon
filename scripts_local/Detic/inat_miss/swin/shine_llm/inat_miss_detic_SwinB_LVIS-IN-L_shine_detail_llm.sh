@@ -1,8 +1,8 @@
 #!/bin/bash
 
-conda activate UnSec
+conda activate GraSecon
 
-METADATA_ROOT="./nexus/inat_miss/vitB32/UnSec_llm_detail"
+METADATA_ROOT="./nexus/inat_miss/vitB32/GraSecon_llm_detail"
 
 python train_net_detic.py \
         --num-gpus 1 \

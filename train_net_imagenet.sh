@@ -1,26 +1,26 @@
 #!/bin/bash
 
 # 脚本的绝对路径
-#SCRIPT_PATH="./scripts_local/Detic/inat/swin/UnSec_llm/inat_detic_SwinB_LVIS-IN-21K_UnSec_detail_llm.sh"
-#SCRIPT_PATH="./scripts_local/Detic/coco/UnSec_llm/coco_ovod_Detic_CLIP_Caption-image_R50_1x_UnSec_llm_detail.sh"
+#SCRIPT_PATH="./scripts_local/Detic/inat/swin/GraSecon_llm/inat_detic_SwinB_LVIS-IN-21K_GraSecon_detail_llm.sh"
+#SCRIPT_PATH="./scripts_local/Detic/coco/GraSecon_llm/coco_ovod_Detic_CLIP_Caption-image_R50_1x_GraSecon_llm_detail.sh"
 
-#SCRIPT_PATH="./scripts_local/Detic/lvis/UnSec_llm/lvis_ovod_Detic_C2_CCimg_R50_640_4x_UnSec_llm_detail.sh"
+#SCRIPT_PATH="./scripts_local/Detic/lvis/GraSecon_llm/lvis_ovod_Detic_C2_CCimg_R50_640_4x_GraSecon_llm_detail.sh"
 
-#SCRIPT_PATH="./scripts_local/Detic/inat/rn50/UnSec_llm/inat_detic_C2_R50_LVIS-IN-L_UnSec_detail_llm.sh"
+#SCRIPT_PATH="./scripts_local/Detic/inat/rn50/GraSecon_llm/inat_detic_C2_R50_LVIS-IN-L_GraSecon_detail_llm.sh"
 
-#SCRIPT_PATH="./scripts_local/Detic/inat/swin/UnSec_llm/inat_detic_SwinB_LVIS-IN-21K-COCO_UnSec_combined_llm.sh"
+#SCRIPT_PATH="./scripts_local/Detic/inat/swin/GraSecon_llm/inat_detic_SwinB_LVIS-IN-21K-COCO_GraSecon_combined_llm.sh"
 
-#SCRIPT_PATH="./scripts_local/Detic/fsod/rn50/UnSec_llm/fsod_detic_C2_R50_LVIS-IN-L_UnSec_detail_llm_combine.sh"
+#SCRIPT_PATH="./scripts_local/Detic/fsod/rn50/GraSecon_llm/fsod_detic_C2_R50_LVIS-IN-L_GraSecon_detail_llm_combine.sh"
 
-#SCRIPT_PATH="./scripts_local/Detic/inat/swin/UnSec_llm_graph/inat_detic_SwinB_LVIS-IN-21K-COCO_UnSec_graph_all_combined_bylevel_llm.sh"
+#SCRIPT_PATH="./scripts_local/Detic/inat/swin/GraSecon_llm_graph/inat_detic_SwinB_LVIS-IN-21K-COCO_GraSecon_graph_all_combined_bylevel_llm.sh"
 
-#SCRIPT_PATH="./scripts_local/Detic/fsod/swin/UnSec_llm/fsod_detic_SwinB_LVIS-IN-21K_UnSec_detail_llm.sh"
+#SCRIPT_PATH="./scripts_local/Detic/fsod/swin/GraSecon_llm/fsod_detic_SwinB_LVIS-IN-21K_GraSecon_detail_llm.sh"
 
-#SCRIPT_PATH="./scripts_local/Detic/fsod/swin/UnSec_llm/fsod_detic_SwinB_LVIS-IN-21K-COCO_UnSec_detail_combined_llm.sh"
-#SCRIPT_PATH="./scripts_local/Detic/inat/rn50/UnSec_llm/inat_detic_C2_R50_LVIS-IN-L_UnSec_detail_llm-by-level.sh"
-#SCRIPT_PATH="./scripts_local/Detic/fsod/swin/UnSec_llm_graph/fsod_detic_SwinB_LVIS-IN-21K-COCO_UnSec_detail_graph_bylevel_llm.sh"
+#SCRIPT_PATH="./scripts_local/Detic/fsod/swin/GraSecon_llm/fsod_detic_SwinB_LVIS-IN-21K-COCO_GraSecon_detail_combined_llm.sh"
+#SCRIPT_PATH="./scripts_local/Detic/inat/rn50/GraSecon_llm/inat_detic_C2_R50_LVIS-IN-L_GraSecon_detail_llm-by-level.sh"
+#SCRIPT_PATH="./scripts_local/Detic/fsod/swin/GraSecon_llm_graph/fsod_detic_SwinB_LVIS-IN-21K-COCO_GraSecon_detail_graph_bylevel_llm.sh"
 
-SCRIPT_PATH="./scripts_local/Classification/imagenet1k/UnSec_llm/imagenet1k_vitL14_UnSec_detail_combine_llm.sh"
+SCRIPT_PATH="./scripts_local/Classification/imagenet1k/GraSecon_llm/imagenet1k_vitL14_GraSecon_detail_combine_llm.sh"
 # 获取脚本所在的目录
 SCRIPT_DIR=$(dirname "$SCRIPT_PATH")
 

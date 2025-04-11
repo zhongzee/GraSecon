@@ -55,11 +55,11 @@ def parse_log(file_path, log_format):
     return per_category_data, summary_results
 
 # Parse the uploaded logs with different formats
-log_1_data, log_1_summary = parse_log('./visualize/most_rise_iNat/inat_detic_SwinB_LVIS-IN-21K_UnSec_llm.log', log_format=1)
-log_2_data, log_2_summary = parse_log('./visualize/most_rise_iNat/inat_detic_SwinB_LVIS-IN-21K_UnSec_detail_llm.log', log_format=2)
+log_1_data, log_1_summary = parse_log('./visualize/most_rise_iNat/inat_detic_SwinB_LVIS-IN-21K_GraSecon_llm.log', log_format=1)
+log_2_data, log_2_summary = parse_log('./visualize/most_rise_iNat/inat_detic_SwinB_LVIS-IN-21K_GraSecon_detail_llm.log', log_format=2)
 
-log_1_data = parse_log('./visualize/most_rise_iNat/inat_detic_SwinB_LVIS-IN-21K_UnSec_llm.log', log_format=1)
-log_2_data = parse_log('./visualize/most_rise_iNat/inat_detic_SwinB_LVIS-IN-21K_UnSec_detail_llm.log', log_format=2)
+log_1_data = parse_log('./visualize/most_rise_iNat/inat_detic_SwinB_LVIS-IN-21K_GraSecon_llm.log', log_format=1)
+log_2_data = parse_log('./visualize/most_rise_iNat/inat_detic_SwinB_LVIS-IN-21K_GraSecon_detail_llm.log', log_format=2)
 
 
 # Compare and calculate differences between logs (per-category)

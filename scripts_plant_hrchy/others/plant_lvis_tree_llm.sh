@@ -1,10 +1,10 @@
 #!/bin/bash
 
-conda activate UnSec
+conda activate GraSecon
 
-cd UnSec_cls || exit
+cd GraSecon_cls || exit
 
-echo "Planting LVIS LLM hierarchy tree to: UnSec/lvis_llm_answers"
+echo "Planting LVIS LLM hierarchy tree to: GraSecon/lvis_llm_answers"
 
 python -W ignore plant_llm_syn_hrchy_tree.py \
                   --mode query \

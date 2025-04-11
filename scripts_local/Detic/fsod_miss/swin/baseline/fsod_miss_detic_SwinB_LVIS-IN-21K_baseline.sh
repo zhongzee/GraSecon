@@ -1,6 +1,6 @@
 #!/bin/bash
 
-conda activate UnSec
+conda activate GraSecon
 
 METADATA_ROOT="./nexus/fsod_miss/vitB32/baseline"
 

@@ -1,13 +1,13 @@
 #!/bin/bash
 
-conda activate UnSec
+conda activate GraSecon
 
 # Configuration files
 CFG_VL_R50="configs_vldet/VLDet_LbaseCCcap_CLIP_R5021k_640b64_2x_ft4x_caption.yaml"
 # Model weight files
 W_VL_R50="models/vldet/lvis_vldet.pth"
 
-METADATA_ROOT="./nexus/fsod/rn50/UnSec_gt"
+METADATA_ROOT="./nexus/fsod/rn50/GraSecon_gt"
 
 python train_net_vldet.py \
         --num-gpus 1 \

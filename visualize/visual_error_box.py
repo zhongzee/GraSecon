@@ -46,9 +46,9 @@ def parse_log(file_path, log_format):
 
 # Parse logs
 log_1_data = parse_log(
-    './visualize/most_rise_iNat/inat_detic_SwinB_LVIS-IN-21K_UnSec_llm.log', log_format=1)
+    './visualize/most_rise_iNat/inat_detic_SwinB_LVIS-IN-21K_GraSecon_llm.log', log_format=1)
 log_2_data = parse_log(
-    './visualize/most_rise_iNat/inat_detic_SwinB_LVIS-IN-21K_UnSec_detail_llm.log',
+    './visualize/most_rise_iNat/inat_detic_SwinB_LVIS-IN-21K_GraSecon_detail_llm.log',
     log_format=2)
 
 # Calculate differences between logs per-category
@@ -76,10 +76,10 @@ def visualize_top_n_increase_as_bar(level_data, top_n=10):
         bar_width = 0.4
         index = range(top_n)
 
-        # bars1 = plt.bar(index, log_1_ap, bar_width, label='UnSec', color='#3875B7', alpha=0.7)
+        # bars1 = plt.bar(index, log_1_ap, bar_width, label='GraSecon', color='#3875B7', alpha=0.7)
         # bars2 = plt.bar([i + bar_width for i in index], log_2_ap, bar_width, label='FirSTee', color='#84C7E7', alpha=0.7)
 
-        bars1 = plt.bar(index, log_1_ap, bar_width, label='UnSec', color='#E3A64B', alpha=0.7)
+        bars1 = plt.bar(index, log_1_ap, bar_width, label='GraSecon', color='#E3A64B', alpha=0.7)
         bars2 = plt.bar([i + bar_width for i in index], log_2_ap, bar_width, label='FirSTee', color='#B279A2', alpha=0.7)
 
         # Set labels and title

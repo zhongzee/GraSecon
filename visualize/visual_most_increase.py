@@ -45,15 +45,15 @@ def parse_log(file_path, log_format):
 
 # Parse logs
 # log_1_data = parse_log(
-#     '/root/autodl-tmp/UnSec-master/visualize/most_rise_iNat/inat_detic_SwinB_LVIS-IN-21K_UnSec_llm.log', log_format=1)
+#     '/root/autodl-tmp/GraSecon-master/visualize/most_rise_iNat/inat_detic_SwinB_LVIS-IN-21K_GraSecon_llm.log', log_format=1)
 # log_2_data = parse_log(
-#     '/root/autodl-tmp/UnSec-master/visualize/most_rise_iNat/inat_detic_SwinB_LVIS-IN-21K_UnSec_detail_llm.log',
+#     '/root/autodl-tmp/GraSecon-master/visualize/most_rise_iNat/inat_detic_SwinB_LVIS-IN-21K_GraSecon_detail_llm.log',
 #     log_format=2)
 
 log_1_data = parse_log(
-    '/root/autodl-tmp/UnSec-master/visualize/most_rise_iNat/inat_detic_SwinB_LVIS-IN-21K_UnSec_llm_L4.log', log_format=1)
+    '/root/autodl-tmp/GraSecon-master/visualize/most_rise_iNat/inat_detic_SwinB_LVIS-IN-21K_GraSecon_llm_L4.log', log_format=1)
 log_2_data = parse_log(
-    '/root/autodl-tmp/UnSec-master/visualize/most_rise_iNat/inat_detic_SwinB_LVIS-IN-21K_UnSec_detail_llm_L4.log',
+    '/root/autodl-tmp/GraSecon-master/visualize/most_rise_iNat/inat_detic_SwinB_LVIS-IN-21K_GraSecon_detail_llm_L4.log',
     log_format=2)
 
 # Calculate differences between logs per-category
@@ -81,7 +81,7 @@ def visualize_top_n_increase_as_bar(level_data, top_n=10):
         index = range(top_n)
 
         # Bars with unified colors and transparency
-        bars1 = plt.bar(index, log_1_ap, bar_width, label='UnSec', color='#3875B7', alpha=0.8)
+        bars1 = plt.bar(index, log_1_ap, bar_width, label='GraSecon', color='#3875B7', alpha=0.8)
         bars2 = plt.bar([i + bar_width for i in index], log_2_ap, bar_width, label='FirSTee', color='#84C7E7', alpha=0.8)
 
         # Set labels, ticks, and title

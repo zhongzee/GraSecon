@@ -64,7 +64,7 @@ class VisualizationEvaluator:
         self.max_images_per_folder = max_images_per_folder  # 每个子文件夹的最大图片数量限制
         self.folder_counters = defaultdict(int)  # 用于跟踪每个子文件夹的图片数量
         self.encoder = ClipEncoder(model_name=model_name, device=device)  # 使用 ClipEncoder
-        self.hsb_path_template='./UnSec/inat_llm_detail_answers/cleaned_inat_gpt_detail_hrchy_{level}.json'
+        self.hsb_path_template='./GraSecon/inat_llm_detail_answers/cleaned_inat_gpt_detail_hrchy_{level}.json'
         os.makedirs(save_dir, exist_ok=True)
 
     def process(self, inputs, outputs, evaluator_metadata, iou_threshold=0.6):

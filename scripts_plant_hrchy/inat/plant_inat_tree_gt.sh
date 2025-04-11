@@ -1,9 +1,9 @@
 #!/bin/bash
 
-conda activate UnSec
+conda activate GraSecon
 
-cd UnSec_cls || exit
+cd GraSecon_cls || exit
 
-echo "Planting iNat ground-truth hierarchy tree to: UnSec/inat_annotations/inat_hierarchy_tree.json"
+echo "Planting iNat ground-truth hierarchy tree to: GraSecon/inat_annotations/inat_hierarchy_tree.json"
 
 python -W ignore plant_inat_hrchy_tree.py

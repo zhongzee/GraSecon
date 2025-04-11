@@ -10,7 +10,7 @@ export PATH="/home/mliu/software/anaconda3/bin:$PATH"
 eval "$(conda shell.bash hook)"
 bash
 
-conda activate UnSec
+conda activate GraSecon
 
 # Configuration files
 CFG_VL_SWIN="configs_vldet/VLDet_LbaseI_CLIP_SwinB_896b32_2x_ft4x_caption.yaml"

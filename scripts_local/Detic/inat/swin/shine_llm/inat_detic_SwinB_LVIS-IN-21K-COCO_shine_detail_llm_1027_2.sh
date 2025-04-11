@@ -1,6 +1,6 @@
 #!/bin/bash
 
-conda activate UnSec
+conda activate GraSecon
 
 METADATA_ROOT="./nexus/inat/vitB32/inat_llm_detail_answers_1027"
 

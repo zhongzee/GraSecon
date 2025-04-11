@@ -1,11 +1,11 @@
 #!/bin/bash
 
-conda activate UnSec
+conda activate GraSecon
 
 CFG_R50="./configs_codet/CoDet_OVLVIS_R5021k_4x_ft4x.yaml"
 MODEL_R50="./models/codet/CoDet_OVLVIS_R5021k_4x_ft4x.pth"
 
-METADATA_ROOT="./nexus/fsod/vitB32/UnSec_by_level_TFC_nggm_rHSB_1231_w_new_TFC_w_SR_epoch2"
+METADATA_ROOT="./nexus/fsod/vitB32/GraSecon_by_level_TFC_nggm_rHSB_1231_w_new_TFC_w_SR_epoch2"
 
 python train_net_codet_IFC.py \
         --num-gpus 8 \

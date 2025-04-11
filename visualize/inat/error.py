@@ -51,8 +51,8 @@ def parse_log(file_path, log_format):
 
 
 # Parse the uploaded logs with different formats
-log_1_data = parse_log('inat_detic_SwinB_LVIS_UnSec_llm.log', log_format=1)
-log_2_data = parse_log('inat_detic_SwinB_LVIS_UnSec_graph_llm2.log', log_format=2)
+log_1_data = parse_log('inat_detic_SwinB_LVIS_GraSecon_llm.log', log_format=1)
+log_2_data = parse_log('inat_detic_SwinB_LVIS_GraSecon_graph_llm2.log', log_format=2)
 
 # Compare and calculate differences between logs
 # Compare and calculate differences between logs

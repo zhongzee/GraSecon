@@ -1,4 +1,4 @@
-UnSec, Copyright (C) 2023, 2024 University of Trento and Naver Corporation, is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 license
+GraSecon, Copyright (C) 2023, 2024 University of Trento and Naver Corporation, is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 license
 
 A summary of the CC BY-NC-SA 4.0 license is located here:
 	https://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -29,33 +29,33 @@ that is available here:
 under these conditions (Apache License 2.0):
 	https://github.com/facebookresearch/Detic/blob/main/LICENSE
 is being redistributed in a modified under the same terms and conditions here:
-    UnSec/detic/data/datasets/cc.py
-    UnSec/detic/data/datasets/coco_zeroshot.py
-    UnSec/detic/data/datasets/imagenet.py
-    UnSec/detic/data/datasets/lvis_v1.py
-    UnSec/detic/data/datasets/objects365.py
-    UnSec/detic/data/datasets/oid.py
-    UnSec/detic/data/datasets/registry_oid.py
-    UnSec/detic/data/datasets/registry_lvis_v1.py
-    UnSec/detic/data/datasets/registry_imagenet.py
-    UnSec/detic/evaluation/custom_coco_eval.py
-    UnSec/detic/evaluation/fsodeval.py
-    UnSec/detic/evaluation/inateval.py
-    UnSec/detic/evaluation/oideval.py
+    GraSecon/detic/data/datasets/cc.py
+    GraSecon/detic/data/datasets/coco_zeroshot.py
+    GraSecon/detic/data/datasets/imagenet.py
+    GraSecon/detic/data/datasets/lvis_v1.py
+    GraSecon/detic/data/datasets/objects365.py
+    GraSecon/detic/data/datasets/oid.py
+    GraSecon/detic/data/datasets/registry_oid.py
+    GraSecon/detic/data/datasets/registry_lvis_v1.py
+    GraSecon/detic/data/datasets/registry_imagenet.py
+    GraSecon/detic/evaluation/custom_coco_eval.py
+    GraSecon/detic/evaluation/fsodeval.py
+    GraSecon/detic/evaluation/inateval.py
+    GraSecon/detic/evaluation/oideval.py
 
 (B) Software available here:
 	https://github.com/facebookresearch/Detic
 under these conditions (Apache License 2.0):
 	https://github.com/facebookresearch/Detic/blob/main/LICENSE
 is being redistributed in a modified under the same terms and conditions here:
-	UnSec/detic
+	GraSecon/detic
 
 (C) Software available here:
 	https://github.com/clin1223/VLDet
 under these conditions (Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License):
 	https://github.com/clin1223/VLDet/blob/main/LICENSE
 is being redistributed in a modified under the same terms and conditions here:
-	UnSec/vldet
+	GraSecon/vldet
 
 (D) This software:
     VLDet/vldet/data/datasets/cc.py
@@ -72,26 +72,26 @@ that is available here:
 under these conditions (Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License):
 	https://github.com/clin1223/VLDet/blob/main/LICENSE
 is being redistributed in a modified under the same terms and conditions here:
-    UnSec/vldet/data/datasets/cc.py
-    UnSec/vldet/data/datasets/coco_zeroshot.py
-    UnSec/vldet/data/datasets/imagenet.py
-    UnSec/vldet/data/datasets/lvis_v1.py
-    UnSec/vldet/data/datasets/objects365.py
-    UnSec/vldet/data/datasets/oid.py
-    UnSec/vldet/data/datasets/registry_oid.py
-    UnSec/vldet/data/datasets/registry_lvis_v1.py
-    UnSec/vldet/data/datasets/registry_imagenet.py
-    UnSec/vldet/evaluation/custom_coco_eval.py
-    UnSec/vldet/evaluation/fsodeval.py
-    UnSec/vldet/evaluation/inateval.py
-    UnSec/vldet/evaluation/oideval.py
+    GraSecon/vldet/data/datasets/cc.py
+    GraSecon/vldet/data/datasets/coco_zeroshot.py
+    GraSecon/vldet/data/datasets/imagenet.py
+    GraSecon/vldet/data/datasets/lvis_v1.py
+    GraSecon/vldet/data/datasets/objects365.py
+    GraSecon/vldet/data/datasets/oid.py
+    GraSecon/vldet/data/datasets/registry_oid.py
+    GraSecon/vldet/data/datasets/registry_lvis_v1.py
+    GraSecon/vldet/data/datasets/registry_imagenet.py
+    GraSecon/vldet/evaluation/custom_coco_eval.py
+    GraSecon/vldet/evaluation/fsodeval.py
+    GraSecon/vldet/evaluation/inateval.py
+    GraSecon/vldet/evaluation/oideval.py
 
 (E) Software available here:
 	https://github.com/CVMI-Lab/CoDet
 under these conditions (Apache License 2.0):
 	https://github.com/CVMI-Lab/CoDet/blob/main/docs/LICENSE
 is being redistributed in a modified under the same terms and conditions here:
-	UnSec/codet
+	GraSecon/codet
 
 (F) This software:
     CoDet/codet/data/datasets/cc.py
@@ -108,19 +108,19 @@ that is available here:
 under these conditions (Apache License 2.0):
 	https://github.com/CVMI-Lab/CoDet/blob/main/docs/LICENSE
 is being redistributed in a modified under the same terms and conditions here:
-    UnSec/codet/data/datasets/cc.py
-    UnSec/codet/data/datasets/coco_zeroshot.py
-    UnSec/codet/data/datasets/imagenet.py
-    UnSec/codet/data/datasets/lvis_v1.py
-    UnSec/codet/data/datasets/objects365.py
-    UnSec/codet/data/datasets/oid.py
-    UnSec/codet/data/datasets/registry_oid.py
-    UnSec/codet/data/datasets/registry_lvis_v1.py
-    UnSec/codet/data/datasets/registry_imagenet.py
-    UnSec/codet/evaluation/custom_coco_eval.py
-    UnSec/codet/evaluation/fsodeval.py
-    UnSec/codet/evaluation/inateval.py
-    UnSec/codet/evaluation/oideval.py
+    GraSecon/codet/data/datasets/cc.py
+    GraSecon/codet/data/datasets/coco_zeroshot.py
+    GraSecon/codet/data/datasets/imagenet.py
+    GraSecon/codet/data/datasets/lvis_v1.py
+    GraSecon/codet/data/datasets/objects365.py
+    GraSecon/codet/data/datasets/oid.py
+    GraSecon/codet/data/datasets/registry_oid.py
+    GraSecon/codet/data/datasets/registry_lvis_v1.py
+    GraSecon/codet/data/datasets/registry_imagenet.py
+    GraSecon/codet/evaluation/custom_coco_eval.py
+    GraSecon/codet/evaluation/fsodeval.py
+    GraSecon/codet/evaluation/inateval.py
+    GraSecon/codet/evaluation/oideval.py
 
 (G) This software:
     Detic/configs/Base-C2_L_R5021k_640b64_4x.yaml
@@ -161,44 +161,44 @@ that is available here:
 under these conditions (Apache License 2.0):
 	https://github.com/facebookresearch/Detic/blob/main/LICENSE
 is being redistributed in a modified under the same terms and conditions here:
-    UnSec/configs_detic/Base-C2_L_R5021k_640b64_4x.yaml
-    UnSec/configs_detic/Base-DeformDETR_L_R50_4x.yaml
-    UnSec/configs_detic/Base_OVCOCO_C4_1x.yaml
-    UnSec/configs_detic/BoxSup-C2_L_CLIP_R5021k_640b64_4x.yaml
-    UnSec/configs_detic/BoxSup-C2_L_CLIP_SwinB_896b32_4x.yaml
-    UnSec/configs_detic/BoxSup-C2_Lbase_CLIP_R5021k_640b64_4x.yaml
-    UnSec/configs_detic/BoxSup-C2_Lbase_CLIP_SwinB_896b32_4x.yaml
-    UnSec/configs_detic/BoxSup-C2_LCOCO_CLIP_CXT21k_640b32_4x.yaml
-    UnSec/configs_detic/BoxSup-C2_LCOCO_CLIP_R18_640b32_4x.yaml
-    UnSec/configs_detic/BoxSup-C2_LCOCO_CLIP_R5021k_640b64_4x.yaml
-    UnSec/configs_detic/BoxSup-C2_LCOCO_CLIP_SwinB_896b32_4x.yaml
-    UnSec/configs_detic/BoxSup-DeformDETR_L_R50_2x.yaml
-    UnSec/configs_detic/BoxSup-DeformDETR_L_R50_4x.yaml
-    UnSec/configs_detic/BoxSup_OVCOCO_CLIP_R50_1x.yaml
-    UnSec/configs_detic/Detic_DeformDETR_LI_R50_4x_ft4x.yaml
-    UnSec/configs_detic/Detic_LbaseCCcapimg_CLIP_R5021k_640b64_4x_ft4x_max-size.yaml
-    UnSec/configs_detic/Detic_LbaseCCimg_CLIP_R5021k_640b64_4x_ft4x_max-size.yaml
-    UnSec/configs_detic/Detic_LbaseI_CLIP_R5021k_640b64_4x_ft4x_max-size.yaml
-    UnSec/configs_detic/Detic_LbaseI_CLIP_R5021k_640b64_4x_ft4x_predicted.yaml
-    UnSec/configs_detic/Detic_LbaseI_CLIP_SwinB_896b32_4x_ft4x_max-size.yaml
-    UnSec/configs_detic/Detic_LCOCOI21k_CLIP_CXT21k_640b32_4x_ft4x_max-size.yaml
-    UnSec/configs_detic/Detic_LCOCOI21k_CLIP_R18_640b32_4x_ft4x_max-size.yaml
-    UnSec/configs_detic/Detic_LCOCOI21k_CLIP_R5021k_640b32_4x_ft4x_max-size.yaml
-    UnSec/configs_detic/Detic_LCOCOI21k_CLIP_SwinB_896b32_4x_ft4x_max-size.yaml
-    UnSec/configs_detic/Detic_LI21k_CLIP_SwinB_896b32_4x_ft4x_max-size.yaml
-    UnSec/configs_detic/Detic_LI_CLIP_R5021k_640b64_4x_ft4x_max-size.yaml
-    UnSec/configs_detic/Detic_LI_CLIP_SwinB_896b32_4x_ft4x_max-size.yaml
-    UnSec/configs_detic/Detic_OVCOCO_CLIP_R50_1x_caption.yaml
-    UnSec/configs_detic/Detic_OVCOCO_CLIP_R50_1x_caption.yaml
-    UnSec/configs_detic/Detic_OVCOCO_CLIP_R50_1x_max-size_caption.yaml
-    UnSec/configs_detic/HCAdev_Detic_LI21k_CLIP_SwinB_896b32_4x_ft4x_max-size.yaml
-    UnSec/configs_detic/only_test_Detic_LCOCOI21k_CLIP_SwinB_896b32_4x_ft4x_max-size.yaml
-    UnSec/configs_detic/only_test_Detic_LI21k_CLIP_SwinB_896b32_4x_ft4x_max-size.yaml
-    UnSec/configs_detic/coco/Base_OVCOCO_C4_1x.yaml
-    UnSec/configs_detic/coco/BoxSup_OVCOCO_CLIP_R50_1x.yaml
-    UnSec/configs_detic/coco/Detic_OVCOCO_CLIP_R50_1x_caption.yaml
-    UnSec/configs_detic/coco/Detic_OVCOCO_CLIP_R50_1x_max-size.yaml
-    UnSec/configs_detic/coco/Detic_OVCOCO_CLIP_R50_1x_max-size_caption.yaml
+    GraSecon/configs_detic/Base-C2_L_R5021k_640b64_4x.yaml
+    GraSecon/configs_detic/Base-DeformDETR_L_R50_4x.yaml
+    GraSecon/configs_detic/Base_OVCOCO_C4_1x.yaml
+    GraSecon/configs_detic/BoxSup-C2_L_CLIP_R5021k_640b64_4x.yaml
+    GraSecon/configs_detic/BoxSup-C2_L_CLIP_SwinB_896b32_4x.yaml
+    GraSecon/configs_detic/BoxSup-C2_Lbase_CLIP_R5021k_640b64_4x.yaml
+    GraSecon/configs_detic/BoxSup-C2_Lbase_CLIP_SwinB_896b32_4x.yaml
+    GraSecon/configs_detic/BoxSup-C2_LCOCO_CLIP_CXT21k_640b32_4x.yaml
+    GraSecon/configs_detic/BoxSup-C2_LCOCO_CLIP_R18_640b32_4x.yaml
+    GraSecon/configs_detic/BoxSup-C2_LCOCO_CLIP_R5021k_640b64_4x.yaml
+    GraSecon/configs_detic/BoxSup-C2_LCOCO_CLIP_SwinB_896b32_4x.yaml
+    GraSecon/configs_detic/BoxSup-DeformDETR_L_R50_2x.yaml
+    GraSecon/configs_detic/BoxSup-DeformDETR_L_R50_4x.yaml
+    GraSecon/configs_detic/BoxSup_OVCOCO_CLIP_R50_1x.yaml
+    GraSecon/configs_detic/Detic_DeformDETR_LI_R50_4x_ft4x.yaml
+    GraSecon/configs_detic/Detic_LbaseCCcapimg_CLIP_R5021k_640b64_4x_ft4x_max-size.yaml
+    GraSecon/configs_detic/Detic_LbaseCCimg_CLIP_R5021k_640b64_4x_ft4x_max-size.yaml
+    GraSecon/configs_detic/Detic_LbaseI_CLIP_R5021k_640b64_4x_ft4x_max-size.yaml
+    GraSecon/configs_detic/Detic_LbaseI_CLIP_R5021k_640b64_4x_ft4x_predicted.yaml
+    GraSecon/configs_detic/Detic_LbaseI_CLIP_SwinB_896b32_4x_ft4x_max-size.yaml
+    GraSecon/configs_detic/Detic_LCOCOI21k_CLIP_CXT21k_640b32_4x_ft4x_max-size.yaml
+    GraSecon/configs_detic/Detic_LCOCOI21k_CLIP_R18_640b32_4x_ft4x_max-size.yaml
+    GraSecon/configs_detic/Detic_LCOCOI21k_CLIP_R5021k_640b32_4x_ft4x_max-size.yaml
+    GraSecon/configs_detic/Detic_LCOCOI21k_CLIP_SwinB_896b32_4x_ft4x_max-size.yaml
+    GraSecon/configs_detic/Detic_LI21k_CLIP_SwinB_896b32_4x_ft4x_max-size.yaml
+    GraSecon/configs_detic/Detic_LI_CLIP_R5021k_640b64_4x_ft4x_max-size.yaml
+    GraSecon/configs_detic/Detic_LI_CLIP_SwinB_896b32_4x_ft4x_max-size.yaml
+    GraSecon/configs_detic/Detic_OVCOCO_CLIP_R50_1x_caption.yaml
+    GraSecon/configs_detic/Detic_OVCOCO_CLIP_R50_1x_caption.yaml
+    GraSecon/configs_detic/Detic_OVCOCO_CLIP_R50_1x_max-size_caption.yaml
+    GraSecon/configs_detic/HCAdev_Detic_LI21k_CLIP_SwinB_896b32_4x_ft4x_max-size.yaml
+    GraSecon/configs_detic/only_test_Detic_LCOCOI21k_CLIP_SwinB_896b32_4x_ft4x_max-size.yaml
+    GraSecon/configs_detic/only_test_Detic_LI21k_CLIP_SwinB_896b32_4x_ft4x_max-size.yaml
+    GraSecon/configs_detic/coco/Base_OVCOCO_C4_1x.yaml
+    GraSecon/configs_detic/coco/BoxSup_OVCOCO_CLIP_R50_1x.yaml
+    GraSecon/configs_detic/coco/Detic_OVCOCO_CLIP_R50_1x_caption.yaml
+    GraSecon/configs_detic/coco/Detic_OVCOCO_CLIP_R50_1x_max-size.yaml
+    GraSecon/configs_detic/coco/Detic_OVCOCO_CLIP_R50_1x_max-size_caption.yaml
 
 (H) This software:
     VLDet/configs/Base_OVCOCO_R50_1x.yaml
@@ -215,15 +215,15 @@ that is available here:
 under these conditions (Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License):
 	https://github.com/clin1223/VLDet/blob/main/LICENSE
 is being redistributed in a modified under the same terms and conditions here:
-    UnSec/configs_vldet/Base_OVCOCO_R50_1x.yaml
-    UnSec/configs_vldet/Base_OVLVIS_R5021k_4x.yaml
-    UnSec/configs_vldet/BoxSup_OVCOCO_R50_1x.yaml
-    UnSec/configs_vldet/BoxSup_OVLVIS_R5021k_4x.yaml
-    UnSec/configs_vldet/BoxSup_OVLVIS_SwinB_4x.yaml
-    UnSec/configs_vldet/CoDet_OVCOCO_R50_1x.yaml
-    UnSec/configs_vldet/CoDet_OVLVIS_EVA_4x.yaml
-    UnSec/configs_vldet/CoDet_OVLVIS_R5021k_4x_ft4x.yaml
-    UnSec/configs_vldet/CoDet_OVLVIS_SwinB_4x_ft4x.yaml
+    GraSecon/configs_vldet/Base_OVCOCO_R50_1x.yaml
+    GraSecon/configs_vldet/Base_OVLVIS_R5021k_4x.yaml
+    GraSecon/configs_vldet/BoxSup_OVCOCO_R50_1x.yaml
+    GraSecon/configs_vldet/BoxSup_OVLVIS_R5021k_4x.yaml
+    GraSecon/configs_vldet/BoxSup_OVLVIS_SwinB_4x.yaml
+    GraSecon/configs_vldet/CoDet_OVCOCO_R50_1x.yaml
+    GraSecon/configs_vldet/CoDet_OVLVIS_EVA_4x.yaml
+    GraSecon/configs_vldet/CoDet_OVLVIS_R5021k_4x_ft4x.yaml
+    GraSecon/configs_vldet/CoDet_OVLVIS_SwinB_4x_ft4x.yaml
 
 (I) This software:
     CoDet/configs/Base-C2_L_R5021k_640b64_4x.yaml
@@ -239,14 +239,14 @@ that is available here:
 under these conditions (Apache License 2.0):
 	https://github.com/CVMI-Lab/CoDet/blob/main/docs/LICENSE
 is being redistributed in a modified under the same terms and conditions here:
-    UnSec/configs_codet/Base-C2_L_R5021k_640b64_4x.yaml
-    UnSec/configs_codet/Base_OVCOCO_C4_1x.yaml
-    UnSec/configs_codet/BoxSup-C2_Lbase_CLIP_R5021k_640b64.yaml
-    UnSec/configs_codet/BoxSup-C2_Lbase_CLIP_SwinB_896b32.yaml
-    UnSec/configs_codet/BoxSup_OVCOCO_CLIP_R50_1x.yaml
-    UnSec/configs_codet/VLDet_LbaseCCcap_CLIP_R5021k_640b64_2x_ft4x_caption.yaml
-    UnSec/configs_codet/VLDet_LbaseI_CLIP_SwinB_896b32_2x_ft4x_caption.yaml
-    UnSec/configs_codet/VLDet_OVCOCO_CLIP_R50_1x_caption.yaml
+    GraSecon/configs_codet/Base-C2_L_R5021k_640b64_4x.yaml
+    GraSecon/configs_codet/Base_OVCOCO_C4_1x.yaml
+    GraSecon/configs_codet/BoxSup-C2_Lbase_CLIP_R5021k_640b64.yaml
+    GraSecon/configs_codet/BoxSup-C2_Lbase_CLIP_SwinB_896b32.yaml
+    GraSecon/configs_codet/BoxSup_OVCOCO_CLIP_R50_1x.yaml
+    GraSecon/configs_codet/VLDet_LbaseCCcap_CLIP_R5021k_640b64_2x_ft4x_caption.yaml
+    GraSecon/configs_codet/VLDet_LbaseI_CLIP_SwinB_896b32_2x_ft4x_caption.yaml
+    GraSecon/configs_codet/VLDet_OVCOCO_CLIP_R50_1x_caption.yaml
 
 (J) This software:
 	Hierarchy-CLIP/hierarcy_clip.py
@@ -257,11 +257,11 @@ is being redistributed in a modified under the same terms and conditions here:
 that is available here:
 	https://github.com/gyhandy/Hierarchy-CLIP
 is being redistributed in a modified under the same terms and conditions here:
-	UnSec/UnSec_cls/plant_hierarchy.py
-	UnSec/UnSec_cls/imagenet-ancestors-descendants/gloss.txt
-    UnSec/UnSec_cls/imagenet-ancestors-descendants/imagenet_label_to_wordnet_synset.txt
-	UnSec/UnSec_cls/imagenet-ancestors-descendants/is_a.txt
-	UnSec/UnSec_cls/imagenet-ancestors-descendants/words.txt
+	GraSecon/GraSecon_cls/plant_hierarchy.py
+	GraSecon/GraSecon_cls/imagenet-ancestors-descendants/gloss.txt
+    GraSecon/GraSecon_cls/imagenet-ancestors-descendants/imagenet_label_to_wordnet_synset.txt
+	GraSecon/GraSecon_cls/imagenet-ancestors-descendants/is_a.txt
+	GraSecon/GraSecon_cls/imagenet-ancestors-descendants/words.txt
 
 (K) This software:
 	Detic/train_net.py
@@ -270,8 +270,8 @@ that is available here:
 under these conditions (Apache License 2.0):
 	https://github.com/facebookresearch/Detic/blob/main/LICENSE
 is being redistributed in a modified under the same terms and conditions here:
-	UnSec/train_net_detic.py
-	UnSec/train_net_detic_coco.py
+	GraSecon/train_net_detic.py
+	GraSecon/train_net_detic_coco.py
 
 (L) This software:
 	VLDet/train_net.py
@@ -280,7 +280,7 @@ that is available here:
 under these conditions (Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License):
 	https://github.com/clin1223/VLDet/blob/main/LICENSE
 is being redistributed in a modified under the same terms and conditions here:
-	UnSec/train_net_vldet.py
+	GraSecon/train_net_vldet.py
 
 (M) This software:
 	CoDet/train_net.py
@@ -289,7 +289,7 @@ that is available here:
 under these conditions (Apache License 2.0):
 	https://github.com/CVMI-Lab/CoDet/blob/main/docs/LICENSE
 is being redistributed in a modified under the same terms and conditions here:
-	UnSec/train_net_codet.py`
+	GraSecon/train_net_codet.py`
 
 
 ----------------------------------------------------------------

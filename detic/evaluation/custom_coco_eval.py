@@ -129,7 +129,7 @@ class CustomCOCOEvaluator(COCOEvaluator):
 
         # Save results to text file
 
-        save_path = "./UnSec/output/Detic/Detic_LbaseCCimg_CLIP_R5021k_640b64_4x_ft4x_max-size"
+        save_path = "./GraSecon/output/Detic/Detic_LbaseCCimg_CLIP_R5021k_640b64_4x_ft4x_max-size"
         if not os.path.exists(save_path):
             os.makedirs(save_path)
 

@@ -3,16 +3,16 @@
 #SBATCH --gres gpu:8
 #SBATCH --mem=64000
 #SBATCH --time 15-00:00:00
-#SBATCH --output=./slurm-output/fsod_detic_SwinB_LVIS_UnSec_llm.out
+#SBATCH --output=./slurm-output/fsod_detic_SwinB_LVIS_GraSecon_llm.out
 
 export PATH="/home/mliu/software/anaconda3/bin:$PATH"
 
 eval "$(conda shell.bash hook)"
 bash
 
-conda activate UnSec
+conda activate GraSecon
 
-METADATA_ROOT="./nexus/fsod/vitB32/UnSec_llm"
+METADATA_ROOT="./nexus/fsod/vitB32/GraSecon_llm"
 
 python train_net_detic.py \
         --num-gpus 8 \

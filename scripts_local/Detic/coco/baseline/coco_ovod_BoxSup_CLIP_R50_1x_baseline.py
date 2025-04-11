@@ -3,9 +3,9 @@ import subprocess
 
 def run_command():
     # Activate the Conda environment (handled differently in Python)
-    # Assuming 'UnSec' is the name of your conda environment
+    # Assuming 'GraSecon' is the name of your conda environment
     conda_path = "/root/miniconda3/bin/conda"
-    activate_command = f"source {conda_path} activate UnSec"
+    activate_command = f"source {conda_path} activate GraSecon"
 
     # Define the Python command to execute the training script with parameters
     metadata_root = "./nexus/coco/baseline"

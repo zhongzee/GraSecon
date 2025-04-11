@@ -7,7 +7,7 @@ def run_command():
 
     # Define the Python command to execute the training script with parameters
     command = [
-        "/root/miniconda3/envs/UnSec2/bin/python3", "train_net_detic.py",
+        "/root/miniconda3/envs/GraSecon2/bin/python3", "train_net_detic.py",
         "--num-gpus", "1",
         "--config-file", "./configs_detic/Detic_LbaseCCimg_CLIP_R5021k_640b64_4x_ft4x_max-size.yaml",
         "DATASETS.TEST", "('lvis_v1_val',)",

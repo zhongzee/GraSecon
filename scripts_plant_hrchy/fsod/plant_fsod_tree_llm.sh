@@ -1,13 +1,13 @@
 #!/bin/bash
 
 # Activate the conda environment
-conda activate UnSec
+conda activate GraSecon
 
 # Change directory
-cd UnSec_cls || exit
+cd GraSecon_cls || exit
 
 # Announcement
-echo "Planting FSOD LLM hierarchy tree to: UnSec/fsod_llm_answers"
+echo "Planting FSOD LLM hierarchy tree to: GraSecon/fsod_llm_answers"
 
 # Define the hierarchy levels
 h_levels=(l1 l2 l3)
@@ -22,7 +22,7 @@ for level in "${h_levels[@]}"; do
            --output_root fsod_llm_answers \
            --h_level "$level"
 
-    echo "Saved the quried results to: UnSec/fsod_llm_answers/raw_fsod_gpt_hrchy_${level}.json"
+    echo "Saved the quried results to: GraSecon/fsod_llm_answers/raw_fsod_gpt_hrchy_${level}.json"
 done
 
 
@@ -36,5 +36,5 @@ for level in "${h_levels[@]}"; do
            --output_root fsod_llm_answers \
            --h_level "$level"
 
-    echo "Saved the cleaned results to: UnSec/fsod_llm_answers/cleaned_fsod_gpt_hrchy_${level}.json"
+    echo "Saved the cleaned results to: GraSecon/fsod_llm_answers/cleaned_fsod_gpt_hrchy_${level}.json"
 done

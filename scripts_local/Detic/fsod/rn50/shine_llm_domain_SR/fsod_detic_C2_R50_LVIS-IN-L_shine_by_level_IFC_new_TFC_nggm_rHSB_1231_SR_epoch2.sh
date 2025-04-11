@@ -1,8 +1,8 @@
 #!/bin/bash
 
-conda activate UnSec
+conda activate GraSecon
 
-METADATA_ROOT="./nexus/fsod/vitB32/UnSec_by_level_TFC_nggm_rHSB_1231_w_new_TFC_w_SR_epoch2"
+METADATA_ROOT="./nexus/fsod/vitB32/GraSecon_by_level_TFC_nggm_rHSB_1231_w_new_TFC_w_SR_epoch2"
 python train_net_detic_IFC.py \
         --num-gpus 8 \
         --config-file ./configs_detic/Detic_LI_CLIP_R5021k_640b64_4x_ft4x_max-size.yaml\

@@ -123,7 +123,7 @@ def do_test(cfg, model):
             })
 
     df = pd.DataFrame(df_rows)
-    # OUTPUT_DIR = "./UnSec"+cfg.OUTPUT_DIR
+    # OUTPUT_DIR = "./GraSecon"+cfg.OUTPUT_DIR
     # print("cfg.OUTPUT_DIR=",OUTPUT_DIR)
     csv_file = os.path.join(cfg.OUTPUT_DIR, 'evaluation_results.csv')
     df.to_csv(csv_file, index=False)
@@ -343,7 +343,7 @@ def main(args):
     # build model from configuration file
     model = build_model(cfg)
     logger.info("Model:\n{}".format(model))
-    OUTPUT_DIR = "./UnSec"+cfg.OUTPUT_DIR
+    OUTPUT_DIR = "./GraSecon"+cfg.OUTPUT_DIR
     # >>> eval only >>>
     if args.eval_only: # 这里选择是eval_only
         DetectionCheckpointer(model, save_dir=OUTPUT_DIR).resume_or_load(

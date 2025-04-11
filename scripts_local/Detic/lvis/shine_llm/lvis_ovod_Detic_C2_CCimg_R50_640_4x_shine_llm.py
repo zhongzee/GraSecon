@@ -2,11 +2,11 @@ import subprocess
 
 def run_command():
     # Environment and metadata root settings
-    metadata_root = "./nexus/lvis/UnSec_llm"
+    metadata_root = "./nexus/lvis/GraSecon_llm"
 
     # Define the Python command to execute the training script with parameters
     command = [
-        "/root/miniconda3/envs/UnSec2/bin/python3", "train_net_detic.py",
+        "/root/miniconda3/envs/GraSecon2/bin/python3", "train_net_detic.py",
         "--num-gpus", "1",
         "--config-file", "./configs_detic/Detic_LbaseCCimg_CLIP_R5021k_640b64_4x_ft4x_max-size.yaml",
         "--eval-only",

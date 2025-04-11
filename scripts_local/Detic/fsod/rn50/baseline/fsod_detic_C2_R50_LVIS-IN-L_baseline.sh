@@ -1,6 +1,6 @@
 #!/bin/bash
 
-conda activate UnSec
+conda activate GraSecon
 
 METADATA_ROOT="./nexus/fsod/vitB32/baseline"
 python train_net_detic.py \

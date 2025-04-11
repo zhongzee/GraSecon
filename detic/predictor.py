@@ -23,7 +23,7 @@ def get_clip_embeddings(vocabulary, prompt='a '):
     emb = text_encoder(texts).detach().permute(1, 0).contiguous().cpu()
     return emb
 
-def get_UnSec_embeddings(vocabulary):
+def get_GraSecon_embeddings(vocabulary):
     from detic.modeling.text.text_encoder import build_text_encoder
     text_encoder = build_text_encoder(pretrain=True)
     text_encoder.eval()
@@ -153,7 +153,7 @@ class VisualizationDemo(object):
             # self.metadata.thing_classes = voc_bl
 
             # classifier = get_clip_embeddings(self.metadata.thing_classes)
-            # classifier = get_UnSec_embeddings(voc_ours)
+            # classifier = get_GraSecon_embeddings(voc_ours)
 
             self.metadata = MetadataCatalog.get("__unused")
             self.metadata.thing_classes = args.custom_vocabulary.split(',')

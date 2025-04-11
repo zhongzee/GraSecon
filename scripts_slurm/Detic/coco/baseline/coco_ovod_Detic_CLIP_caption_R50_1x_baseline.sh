@@ -10,7 +10,7 @@ export PATH="/home/mliu/software/anaconda3/bin:$PATH"
 eval "$(conda shell.bash hook)"
 bash
 
-conda activate UnSec
+conda activate GraSecon
 
 METADATA_ROOT="./nexus/coco/baseline"
 

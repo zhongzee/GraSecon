@@ -1,62 +1,62 @@
 #!/bin/bash
 
-# SCRIPT_PATH="./scripts_local/Classification/imagenet1k/UnSec_llm/imagenet1k_vitB16_UnSec_detail_combine_llm_UnSec.sh"
+# SCRIPT_PATH="./scripts_local/Classification/imagenet1k/GraSecon_llm/imagenet1k_vitB16_GraSecon_detail_combine_llm_GraSecon.sh"
 
-# SCRIPT_PATH="./scripts_local/Classification/imagenet1k/UnSec_llm/imagenet1k_vitB32_UnSec_detail_combine_llm_UnSec.sh"
+# SCRIPT_PATH="./scripts_local/Classification/imagenet1k/GraSecon_llm/imagenet1k_vitB32_GraSecon_detail_combine_llm_GraSecon.sh"
 
-# SCRIPT_PATH="./scripts_local/Classification/imagenet1k/UnSec_llm/imagenet1k_vitL14_UnSec_detail_combine_llm_UnSec.sh"
+# SCRIPT_PATH="./scripts_local/Classification/imagenet1k/GraSecon_llm/imagenet1k_vitL14_GraSecon_detail_combine_llm_GraSecon.sh"
 
-# SCRIPT_PATH="./scripts_local/Classification/imagenet1k/UnSec_llm/imagenet1k_vitL14_UnSec_detail_combine_llm_UnSec_wo_TFC.sh"
+# SCRIPT_PATH="./scripts_local/Classification/imagenet1k/GraSecon_llm/imagenet1k_vitL14_GraSecon_detail_combine_llm_GraSecon_wo_TFC.sh"
 
-# SCRIPT_PATH="./scripts_local/Classification/imagenet1k/UnSec_llm/imagenet1k_vitB32_UnSec_detail_combine_llm_UnSec_wo_TFC.sh"
+# SCRIPT_PATH="./scripts_local/Classification/imagenet1k/GraSecon_llm/imagenet1k_vitB32_GraSecon_detail_combine_llm_GraSecon_wo_TFC.sh"
 
-SCRIPT_PATH="./scripts_local/Classification/imagenet1k/UnSec_llm/imagenet1k_vitB16_UnSec_detail_combine_llm_UnSec_wo_TFC.sh"
+SCRIPT_PATH="./scripts_local/Classification/imagenet1k/GraSecon_llm/imagenet1k_vitB16_GraSecon_detail_combine_llm_GraSecon_wo_TFC.sh"
 
-SCRIPT_PATH="./scripts_local/Classification/imagenet1k/UnSec_llm/imagenet1k_vitB16_UnSec_detail_combine_llm_UnSec_wo_TFC_wo_IFC.sh"
+SCRIPT_PATH="./scripts_local/Classification/imagenet1k/GraSecon_llm/imagenet1k_vitB16_GraSecon_detail_combine_llm_GraSecon_wo_TFC_wo_IFC.sh"
 
-SCRIPT_PATH="./scripts_local/Classification/imagenet1k/UnSec_llm/imagenet1k_vitB32_UnSec_detail_combine_llm_UnSec_wo_TFC_wo_IFC.sh"
+SCRIPT_PATH="./scripts_local/Classification/imagenet1k/GraSecon_llm/imagenet1k_vitB32_GraSecon_detail_combine_llm_GraSecon_wo_TFC_wo_IFC.sh"
 
-SCRIPT_PATH="./scripts_local/Classification/imagenet1k/UnSec_llm/imagenet1k_vitL14_UnSec_detail_combine_llm_UnSec_wo_TFC_wo_IFC.sh"
+SCRIPT_PATH="./scripts_local/Classification/imagenet1k/GraSecon_llm/imagenet1k_vitL14_GraSecon_detail_combine_llm_GraSecon_wo_TFC_wo_IFC.sh"
 
-SCRIPT_PATH="./scripts_local/Classification/imagenet1k/UnSec_llm/imagenet1k_vitB16_UnSec_detail_combine_llm_UnSec_wo_TFC_1runs.sh"
+SCRIPT_PATH="./scripts_local/Classification/imagenet1k/GraSecon_llm/imagenet1k_vitB16_GraSecon_detail_combine_llm_GraSecon_wo_TFC_1runs.sh"
 
-SCRIPT_PATH="./scripts_local/Classification/imagenet1k/UnSec_llm/imagenet1k_vitB32_UnSec_detail_combine_llm_UnSec_wo_TFC_wo_IFC_1runs.sh"
+SCRIPT_PATH="./scripts_local/Classification/imagenet1k/GraSecon_llm/imagenet1k_vitB32_GraSecon_detail_combine_llm_GraSecon_wo_TFC_wo_IFC_1runs.sh"
 
-SCRIPT_PATH="./scripts_local/Classification/imagenet1k/UnSec_llm/imagenet1k_vitL14_UnSec_detail_combine_llm_UnSec_wo_TFC_wo_IFC_1runs.sh"
+SCRIPT_PATH="./scripts_local/Classification/imagenet1k/GraSecon_llm/imagenet1k_vitL14_GraSecon_detail_combine_llm_GraSecon_wo_TFC_wo_IFC_1runs.sh"
 
-SCRIPT_PATH="./scripts_local/Classification/imagenet1k/UnSec_llm/imagenet1k_vitB16_UnSec_detail_combine_llm_UnSec_wo_TFC_wo_IFC_1runs.sh"
-# SCRIPT_PATH="./scripts_local/Classification/imagenet1k/UnSec_llm/imagenet1k_vitB16_UnSec_detail_combine_llm_UnSec_wo_TFC_wo_IFC_1runs.sh"
+SCRIPT_PATH="./scripts_local/Classification/imagenet1k/GraSecon_llm/imagenet1k_vitB16_GraSecon_detail_combine_llm_GraSecon_wo_TFC_wo_IFC_1runs.sh"
+# SCRIPT_PATH="./scripts_local/Classification/imagenet1k/GraSecon_llm/imagenet1k_vitB16_GraSecon_detail_combine_llm_GraSecon_wo_TFC_wo_IFC_1runs.sh"
 # lvis
 
-# SCRIPT_PATH="./scripts_local/Detic/lvis/UnSec_llm/lvis_ovod_Detic_C2_IN-L_SwinB_896_4x_UnSec_llm_detail_UnSec.sh"
+# SCRIPT_PATH="./scripts_local/Detic/lvis/GraSecon_llm/lvis_ovod_Detic_C2_IN-L_SwinB_896_4x_GraSecon_llm_detail_GraSecon.sh"
 
-# SCRIPT_PATH="./scripts_local/Detic/lvis/UnSec_llm/lvis_ovod_Detic_C2_IN-L_R50_640_4x_UnSec_llm_detail_UnSec.sh"
+# SCRIPT_PATH="./scripts_local/Detic/lvis/GraSecon_llm/lvis_ovod_Detic_C2_IN-L_R50_640_4x_GraSecon_llm_detail_GraSecon.sh"
 
-# SCRIPT_PATH="./scripts_local/Detic/lvis/UnSec_llm/lvis_ovod_Detic_C2_CCimg_R50_640_4x_UnSec_llm_detail_UnSec.sh"
+# SCRIPT_PATH="./scripts_local/Detic/lvis/GraSecon_llm/lvis_ovod_Detic_C2_CCimg_R50_640_4x_GraSecon_llm_detail_GraSecon.sh"
 
-# SCRIPT_PATH="./scripts_local/Detic/lvis/UnSec_llm/lvis_ovod_BoxSup_C2_Lbase_CLIP_R50_640_4x_UnSec_detail_UnSec.sh"
+# SCRIPT_PATH="./scripts_local/Detic/lvis/GraSecon_llm/lvis_ovod_BoxSup_C2_Lbase_CLIP_R50_640_4x_GraSecon_detail_GraSecon.sh"
 
 # coco
 
-# SCRIPT_PATH="/mn./log/scripts_local/Detic/inat_misst/afs/huangtao3/wzz/UnSec-master/scripts_local/Detic/coco/UnSec_llm/coco_ovod_Detic_CLIP_image_R50_1x_UnSec_llm_UnSec_woIFC.sh"
+# SCRIPT_PATH="/mn./log/scripts_local/Detic/inat_misst/afs/huangtao3/wzz/GraSecon-master/scripts_local/Detic/coco/GraSecon_llm/coco_ovod_Detic_CLIP_image_R50_1x_GraSecon_llm_GraSecon_woIFC.sh"
 
-# SCRIPT_PATH="./scripts_local/Detic/coco/UnSec_llm/coco_ovod_Detic_CLIP_Caption-image_R50_1x_UnSec_llm_detail_UnSec_wo_IFC.sh"
+# SCRIPT_PATH="./scripts_local/Detic/coco/GraSecon_llm/coco_ovod_Detic_CLIP_Caption-image_R50_1x_GraSecon_llm_detail_GraSecon_wo_IFC.sh"
 
 
-# SCRIPT_PATH="./scripts_local/Detic/coco/UnSec_llm/coco_ovod_Detic_CLIP_caption_R50_1x_UnSec_llm_UnSec_wo_IFC.sh"
+# SCRIPT_PATH="./scripts_local/Detic/coco/GraSecon_llm/coco_ovod_Detic_CLIP_caption_R50_1x_GraSecon_llm_GraSecon_wo_IFC.sh"
 
-# SCRIPT_PATH="./scripts_local/Detic/coco/UnSec_llm/coco_ovod_BoxSup_CLIP_R50_1x_UnSec_llm_detail_UnSec_wo_IFC.sh"
+# SCRIPT_PATH="./scripts_local/Detic/coco/GraSecon_llm/coco_ovod_BoxSup_CLIP_R50_1x_GraSecon_llm_detail_GraSecon_wo_IFC.sh"
 
-# SCRIPT_PATH="./scripts_local/Detic/coco/UnSec_llm/coco_ovod_BoxSup_CLIP_R50_1x_UnSec_llm_detail_UnSec.sh"
+# SCRIPT_PATH="./scripts_local/Detic/coco/GraSecon_llm/coco_ovod_BoxSup_CLIP_R50_1x_GraSecon_llm_detail_GraSecon.sh"
 
-# SCRIPT_PATH="./scripts_local/Detic/coco/UnSec_llm/coco_ovod_Detic_CLIP_caption_R50_1x_UnSec_llm_UnSec.sh"
+# SCRIPT_PATH="./scripts_local/Detic/coco/GraSecon_llm/coco_ovod_Detic_CLIP_caption_R50_1x_GraSecon_llm_GraSecon.sh"
 
-# SCRIPT_PATH="./scripts_local/Classification/breeds/UnSec_gt/breeds_vitB16_UnSec_gt.sh"
+# SCRIPT_PATH="./scripts_local/Classification/breeds/GraSecon_gt/breeds_vitB16_GraSecon_gt.sh"
 # 设置日志的基础路径
 BASE_LOG_DIR="./log"
 
 # 获取脚本的相对路径
-RELATIVE_PATH=$(realpath --relative-to="./UnSec-master" "$SCRIPT_PATH")
+RELATIVE_PATH=$(realpath --relative-to="./GraSecon-master" "$SCRIPT_PATH")
 
 # 去掉脚本文件名的扩展名（.sh），用于日志文件名
 LOG_FILE_NAME=$(basename "$RELATIVE_PATH" .sh)

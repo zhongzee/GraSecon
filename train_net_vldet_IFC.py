@@ -293,7 +293,7 @@ CFG_VL_SWIN="configs_vldet/VLDet_LbaseI_CLIP_SwinB_896b32_2x_ft4x_caption.yaml"
 # Model weight files
 W_VL_SWIN="./models/vldet/lvis_vldet_swinB.pth"
 
-METADATA_ROOT="./nexus/inat/rn50/UnSec_llm"
+METADATA_ROOT="./nexus/inat/rn50/GraSecon_llm"
 
 --num-gpus 1
 --config-file configs_vldet/VLDet_LbaseCCcap_CLIP_R5021k_640b64_2x_ft4x_caption.yaml
@@ -301,7 +301,7 @@ METADATA_ROOT="./nexus/inat/rn50/UnSec_llm"
 DATASETS.TEST "('inat_val_l1', 'inat_val_l2', 'inat_val_l3','inat_val_l4','inat_val_l5','inat_val_l6',)"
 MODEL.WEIGHTS ./models/vldet/lvis_vldet.pth
 MODEL.RESET_CLS_TESTS True
-MODEL.TEST_CLASSIFIERS "('./nexus/inat/rn50/UnSec_llm/inat_clip_hrchy_l1.npy', './nexus/inat/rn50/UnSec_llm/inat_clip_hrchy_l2.npy', './nexus/inat/rn50/UnSec_llm/inat_clip_hrchy_l3.npy', './nexus/inat/rn50/UnSec_llm/inat_clip_hrchy_l4.npy', './nexus/inat/rn50/UnSec_llm/inat_clip_hrchy_l5.npy', './nexus/inat/rn50/UnSec_llm/inat_clip_hrchy_l6.npy',)"
+MODEL.TEST_CLASSIFIERS "('./nexus/inat/rn50/GraSecon_llm/inat_clip_hrchy_l1.npy', './nexus/inat/rn50/GraSecon_llm/inat_clip_hrchy_l2.npy', './nexus/inat/rn50/GraSecon_llm/inat_clip_hrchy_l3.npy', './nexus/inat/rn50/GraSecon_llm/inat_clip_hrchy_l4.npy', './nexus/inat/rn50/GraSecon_llm/inat_clip_hrchy_l5.npy', './nexus/inat/rn50/GraSecon_llm/inat_clip_hrchy_l6.npy',)"
 MODEL.TEST_NUM_CLASSES "(5, 18, 61, 184, 317, 500,)"
 MODEL.MASK_ON False
 

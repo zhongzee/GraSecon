@@ -3,7 +3,7 @@
 #SBATCH --gres gpu:1
 #SBATCH --mem=64000
 #SBATCH --time 15-00:00:00
-#SBATCH --output=./slurm-output/cls_imagenet1k_vitB32_UnSec_llm.out
+#SBATCH --output=./slurm-output/cls_imagenet1k_vitB32_GraSecon_llm.out
 
 export PATH="/home/mliu/software/anaconda3/bin:$PATH"
 
@@ -12,15 +12,15 @@ bash
 
 activateAndRun() {
     # Activate the conda environment
-    conda activate UnSec
+    conda activate GraSecon
 
     # Change to the specified directory, exit if it fails
-    cd UnSec_cls || exit
+    cd GraSecon_cls || exit
 
    # If you wanna test inference speed, change --num_runs to 10
     python -W ignore zeroshot.py \
               --model_size "ViT-B/32" \
-              --method "UnSec" \
+              --method "GraSecon" \
               --hierarchy_tree_path "imagenet1k_hrchy_llm_composed.json" \
               --batch_size 256 \
               --num_runs 1

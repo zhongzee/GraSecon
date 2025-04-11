@@ -2,15 +2,15 @@
 
 activateEnvironmentAndMove() {
     # Activate the conda environment
-    conda activate UnSec
+    conda activate GraSecon
 
     # Change directory
-    cd UnSec || exit
+    cd GraSecon || exit
 }
 
 buildNexus() {
     declare -A nexus_paths=(
-        ["ViT-B/32"]=".././nexus/lvis/UnSec_detail_llm_combine"
+        ["ViT-B/32"]=".././nexus/lvis/GraSecon_detail_llm_combine"
     )
 
     for clip_model in "${!nexus_paths[@]}"; do

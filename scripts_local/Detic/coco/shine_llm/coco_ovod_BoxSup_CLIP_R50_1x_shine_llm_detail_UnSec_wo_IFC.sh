@@ -1,8 +1,8 @@
 #!/bin/bash
 
-conda activate UnSec
+conda activate GraSecon
 
-METADATA_ROOT="./nexus/coco/vitB32/UnSec_llm_detail_unsec"
+METADATA_ROOT="./nexus/coco/vitB32/GraSecon_llm_detail_GraSecon"
 
 
 python train_net_detic_coco.py \

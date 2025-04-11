@@ -14,7 +14,7 @@ def plot_heatmap(data_matrix, title, filename):
                 linewidth=True, linewidths=0.5, linecolor='black')
 
     # Set labels and title
-    methods = ["UnSec", "LSB", "LLM-A", "HSB"]
+    methods = ["GraSecon", "LSB", "LLM-A", "HSB"]
     datasets = ["I", "II", "III", "IV"]
     plt.xticks(np.arange(len(datasets)) + 0.5, datasets, ha='center')
     plt.yticks(np.arange(len(methods)) + 0.5, methods, rotation=0, va='center')

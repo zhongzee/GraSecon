@@ -23,12 +23,12 @@ ax.set_xticklabels(["I", "II", "III", "IV"], fontsize=14, weight='bold', fontnam
 
 # Plotting and connecting lines between markers
 baseline_positions = x_positions_corrected - 1.0
-UnSec_positions = x_positions_corrected
+GraSecon_positions = x_positions_corrected
 our_positions = x_positions_corrected + 1.0
 
 misspecified_voc_values = [46, 47.1, 56.1, 56.2]
 baseline_values = [52.1, 50.9, 58.6, 60.2]
-UnSec_values = [71.7, 77.5, 83.7, 81.6]
+GraSecon_values = [71.7, 77.5, 83.7, 81.6]
 original_voc_values = [74.0, 78.8, 84.5, 82.7]
 our_values = [78.8, 86, 88.3, 86.7]
 our_misspecified_voc_values = [76.6, 85.5, 87.8, 85.9]
@@ -36,15 +36,15 @@ our_misspecified_voc_values = [76.6, 85.5, 87.8, 85.9]
 # Update scatter plot to use the specified colors with smaller markers
 ax.scatter(baseline_positions, baseline_values, color='#F3B169', s=300, edgecolor="black", marker='D', label="=500")  # baseline
 ax.scatter(baseline_positions, misspecified_voc_values, color='#F3B169', s=300, edgecolor="black", marker='o', label="=1966")  # miss
-ax.scatter(UnSec_positions, UnSec_values, color='#5995D3', s=300, edgecolor="black", marker='o')  # UnSec
-ax.scatter(UnSec_positions, original_voc_values, color='#5995D3', s=300, edgecolor="black", marker='D')  # UnSec
+ax.scatter(GraSecon_positions, GraSecon_values, color='#5995D3', s=300, edgecolor="black", marker='o')  # GraSecon
+ax.scatter(GraSecon_positions, original_voc_values, color='#5995D3', s=300, edgecolor="black", marker='D')  # GraSecon
 ax.scatter(our_positions, our_values, color='#35A376', s=300, edgecolor="black", marker='D', label="=500")  # our green baseline
 ax.scatter(our_positions, our_misspecified_voc_values, color='#35A376', s=300, edgecolor="black", marker='o', label="=1966")  # our green miss
 
 # Connecting lines
 for i in range(len(x_positions_corrected)):
     ax.plot([baseline_positions[i], baseline_positions[i]], [baseline_values[i], misspecified_voc_values[i]], 'k-', lw=2)
-    ax.plot([UnSec_positions[i], UnSec_positions[i]], [UnSec_values[i], original_voc_values[i]], 'k-', lw=2)
+    ax.plot([GraSecon_positions[i], GraSecon_positions[i]], [GraSecon_values[i], original_voc_values[i]], 'k-', lw=2)
     ax.plot([our_positions[i], our_positions[i]], [our_values[i], our_misspecified_voc_values[i]], 'k-', lw=2)
 
 # Adding grid lines for visual aid

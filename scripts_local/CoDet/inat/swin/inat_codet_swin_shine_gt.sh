@@ -1,11 +1,11 @@
 #!/bin/bash
 
-conda activate UnSec
+conda activate GraSecon
 
 CFG_SWIN="./configs_codet/CoDet_OVLVIS_SwinB_4x_ft4x.yaml"
 MODEL_SWIN="./models/codet/CoDet_OVLVIS_SwinB_4x_ft4x.pth"
 
-METADATA_ROOT="./nexus/inat/vitB32/UnSec_gt"
+METADATA_ROOT="./nexus/inat/vitB32/GraSecon_gt"
 
 python train_net_codet.py \
         --num-gpus 1 \

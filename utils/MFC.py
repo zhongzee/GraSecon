@@ -47,13 +47,13 @@ class MeanFeatureCalculator:
 
         # 构建 script_path 前缀
         if "inat" in dataset_name:
-            script_prefix = "../scripts_local/Detic/inat/swin/UnSec_llm/"
+            script_prefix = "../scripts_local/Detic/inat/swin/GraSecon_llm/"
         elif "coco" in dataset_name:
-            script_prefix = "../scripts_local/Detic/coco/UnSec_llm_domain/"
+            script_prefix = "../scripts_local/Detic/coco/GraSecon_llm_domain/"
         elif "lvis" in dataset_name:
-            script_prefix = "../scripts_local/Detic/lvis/UnSec_domain/"
+            script_prefix = "../scripts_local/Detic/lvis/GraSecon_domain/"
         elif "fsod" in dataset_name:
-            script_prefix = "../scripts_local/Detic/fsod/swin/UnSec_llm/"
+            script_prefix = "../scripts_local/Detic/fsod/swin/GraSecon_llm/"
         else:
             raise ValueError(f"Unsupported dataset_name: {dataset_name}")
 
@@ -136,7 +136,7 @@ class MeanFeatureCalculator:
         return mean_features
 
     def compute_mean_features2(self,dataset_name, data_loader, model,
-                          script_path="../scripts_local/Detic/fsod/swin/UnSec_llm/fsod_detic_SwinB_LVIS-IN-21K-COCO_UnSec_llm.sh",
+                          script_path="../scripts_local/Detic/fsod/swin/GraSecon_llm/fsod_detic_SwinB_LVIS-IN-21K-COCO_GraSecon_llm.sh",
                           max_samples=None):
         """
         计算数据集的均值特征，逐图像存储特征，最后统一计算均值特征。
@@ -145,16 +145,16 @@ class MeanFeatureCalculator:
         """
         # inat inat_detic_SwinB_LVIS-IN-21K-COCO、inat_detic_SwinB_LVIS-IN-21K、inat_detic_C2_R50_LVIS-IN-L、inat_detic_C2_R50_LVIS
         if "inat" in dataset_name:
-            script_path = "../scripts_local/Detic/inat/swin/UnSec_llm/inat_detic_SwinB_LVIS-IN-21K-COCO_UnSec_detail_llm_1028.sh"
+            script_path = "../scripts_local/Detic/inat/swin/GraSecon_llm/inat_detic_SwinB_LVIS-IN-21K-COCO_GraSecon_detail_llm_1028.sh"
         # coco
         elif "coco" in dataset_name:
-            script_path = "../scripts_local/Detic/coco/UnSec_llm_domain/coco_ovod_Detic_CLIP_Caption-image_R50_1x_UnSec_llm_MFC.sh"
+            script_path = "../scripts_local/Detic/coco/GraSecon_llm_domain/coco_ovod_Detic_CLIP_Caption-image_R50_1x_GraSecon_llm_MFC.sh"
         # lvis
         elif "lvis" in dataset_name:
-            script_path = "../scripts_local/Detic/lvis/UnSec_domain/lvis_ovod_Detic_C2_CCimg_R50_640_4x_UnSec_llm_MFC.sh"
+            script_path = "../scripts_local/Detic/lvis/GraSecon_domain/lvis_ovod_Detic_C2_CCimg_R50_640_4x_GraSecon_llm_MFC.sh"
         # fsod 
         elif "fsod" in dataset_name:
-            script_path = "../scripts_local/Detic/fsod/swin/UnSec_llm/fsod_detic_SwinB_LVIS-IN-21K-COCO_UnSec_llm.sh"
+            script_path = "../scripts_local/Detic/fsod/swin/GraSecon_llm/fsod_detic_SwinB_LVIS-IN-21K-COCO_GraSecon_llm.sh"
 
         # 只有当 dataset_name 改变时才打印日志
         if self.last_processed_dataset != dataset_name:
@@ -228,16 +228,16 @@ class MeanFeatureCalculator:
 
         return mean_features
 
-    # script_path="../scripts_local/Detic/inat/swin/UnSec_llm/inat_detic_SwinB_LVIS-IN-21K-COCO_UnSec_detail_llm_1028.sh"
+    # script_path="../scripts_local/Detic/inat/swin/GraSecon_llm/inat_detic_SwinB_LVIS-IN-21K-COCO_GraSecon_detail_llm_1028.sh"
     # def compute_mean_features(self, dataset_name, data_loader, model,
-    #                       script_path = "../scripts_local/Detic/fsod/swin/UnSec_llm/fsod_detic_SwinB_LVIS-IN-21K-COCO_UnSec_llm.sh",
+    #                       script_path = "../scripts_local/Detic/fsod/swin/GraSecon_llm/fsod_detic_SwinB_LVIS-IN-21K-COCO_GraSecon_llm.sh",
     #                       max_samples=2):
     #     """
     #     计算数据集的均值特征，逐图像存储特征，最后统一计算均值特征。
     #     支持对所有层（p3 到 p7）进行全局平均池化，分别计算均值特征。
     #     如果均值特征已经存在，直接加载并返回，而不重复计算。
     #     """
-    #     script_path = "../scripts_local/Detic/coco/UnSec_llm_domain/coco_ovod_Detic_CLIP_Caption-image_R50_1x_UnSec_llm_MFC.sh"
+    #     script_path = "../scripts_local/Detic/coco/GraSecon_llm_domain/coco_ovod_Detic_CLIP_Caption-image_R50_1x_GraSecon_llm_MFC.sh"
     #     # 只有当 dataset_name 改变时才打印日志
     #     if self.last_processed_dataset != dataset_name:
     #         self.logger.info(f"开始处理数据集 {dataset_name}")
@@ -310,7 +310,7 @@ class MeanFeatureCalculator:
 
 
     # def compute_mean_features(self, dataset_name, data_loader, model,
-    #                           script_path="../scripts_local/Detic/inat/swin/UnSec_llm/inat_detic_SwinB_LVIS-IN-21K-COCO_UnSec_detail_llm_1028.sh",
+    #                           script_path="../scripts_local/Detic/inat/swin/GraSecon_llm/inat_detic_SwinB_LVIS-IN-21K-COCO_GraSecon_detail_llm_1028.sh",
     #                           max_samples=3):
     #     """
     #     计算数据集的均值特征，逐图像存储特征，最后统一计算均值特征。

@@ -1,13 +1,13 @@
 #!/bin/bash
 
-conda activate UnSec
+conda activate GraSecon
 
 # Configuration files
 CFG_VL_SWIN="configs_vldet/VLDet_LbaseI_CLIP_SwinB_896b32_2x_ft4x_caption.yaml"
 # Model weight files
 W_VL_SWIN="./models/vldet/lvis_vldet_swinB.pth"
 
-METADATA_ROOT="./nexus/inat/vitB32/UnSec_llm_by_level_TFC_0113_new_layer_policy_5n1g_new_epoch2_dgm"
+METADATA_ROOT="./nexus/inat/vitB32/GraSecon_llm_by_level_TFC_0113_new_layer_policy_5n1g_new_epoch2_dgm"
 
 python train_net_vldet_IFC.py \
         --num-gpus 8 \

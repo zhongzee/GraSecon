@@ -3,21 +3,21 @@
 #SBATCH --gres gpu:8
 #SBATCH --mem=64000
 #SBATCH --time 15-00:00:00
-#SBATCH --output=./slurm-output/fsod_VLDet_Swin_UnSec_gt.out
+#SBATCH --output=./slurm-output/fsod_VLDet_Swin_GraSecon_gt.out
 
 export PATH="/home/mliu/software/anaconda3/bin:$PATH"
 
 eval "$(conda shell.bash hook)"
 bash
 
-conda activate UnSec
+conda activate GraSecon
 
 # Configuration files
 CFG_VL_SWIN="configs_vldet/VLDet_LbaseI_CLIP_SwinB_896b32_2x_ft4x_caption.yaml"
 # Model weight files
 W_VL_SWIN="models/vldet/lvis_vldet_swinB.pth"
 
-METADATA_ROOT="./nexus/fsod/rn50/UnSec_gt"
+METADATA_ROOT="./nexus/fsod/rn50/GraSecon_gt"
 
 python train_net_vldet.py \
         --num-gpus 8 \

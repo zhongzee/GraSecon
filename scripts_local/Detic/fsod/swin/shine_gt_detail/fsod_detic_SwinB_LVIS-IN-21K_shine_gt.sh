@@ -1,8 +1,8 @@
 #!/bin/bash
 
-activate UnSec
+activate GraSecon
 
-METADATA_ROOT="./nexus/fsod/vitB32/UnSec_gt"
+METADATA_ROOT="./nexus/fsod/vitB32/GraSecon_gt"
 
 python train_net_detic.py \
         --num-gpus 8 \

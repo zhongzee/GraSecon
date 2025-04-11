@@ -2,10 +2,10 @@
 
 activateAndRun() {
     # Activate the conda environment
-    conda activate UnSec
+    conda activate GraSecon
 
     # Change to the specified directory, exit if it fails
-    cd UnSec_cls || exit
+    cd GraSecon_cls || exit
 
     # Define breed levels in an array
     local breed_levels=(l6 l5 l4 l3 l2 l1)

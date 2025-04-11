@@ -1,13 +1,13 @@
 #!/bin/bash
 
-conda activate UnSec
+conda activate GraSecon
 
 # Configuration files
 CFG_VL_R50="configs_vldet/VLDet_LbaseCCcap_CLIP_R5021k_640b64_2x_ft4x_caption.yaml"
 # Model weight files
 W_VL_R50="models/vldet/lvis_vldet.pth"
 
-METADATA_ROOT="./nexus/inat/RN50/UnSec_llm_TFC_0109_new_layer_policy_5n1g_w_RN50"
+METADATA_ROOT="./nexus/inat/RN50/GraSecon_llm_TFC_0109_new_layer_policy_5n1g_w_RN50"
 
 
 python train_net_vldet_IFC.py \

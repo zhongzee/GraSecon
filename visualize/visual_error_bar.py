@@ -45,8 +45,8 @@ def parse_log(file_path, log_format):
 
 
 # Parse logs
-log_1_data = parse_log('./visualize/most_rise_iNat/inat_detic_SwinB_LVIS-IN-21K_UnSec_llm.log', log_format=1)
-log_2_data = parse_log('./visualize/most_rise_iNat/inat_detic_SwinB_LVIS-IN-21K_UnSec_detail_llm.log', log_format=2)
+log_1_data = parse_log('./visualize/most_rise_iNat/inat_detic_SwinB_LVIS-IN-21K_GraSecon_llm.log', log_format=1)
+log_2_data = parse_log('./visualize/most_rise_iNat/inat_detic_SwinB_LVIS-IN-21K_GraSecon_detail_llm.log', log_format=2)
 
 
 # Calculate differences between logs per-category
@@ -70,12 +70,12 @@ def visualize_top_n_increase(level_data, top_n=10):
         categories, log_1_ap, log_2_ap, diffs = zip(*sorted_data)
 
         # Define colors matching the shared color theme
-        UnSec_color = '#4c72b0'  # Similar to blue
+        GraSecon_color = '#4c72b0'  # Similar to blue
         firstee_color = '#dd8452'  # Similar to coral/orange
 
         # Plotting
         plt.figure(figsize=(8, 6))
-        bars1 = plt.bar(categories, log_1_ap, label='UnSec', color=UnSec_color, alpha=0.8)
+        bars1 = plt.bar(categories, log_1_ap, label='GraSecon', color=GraSecon_color, alpha=0.8)
         bars2 = plt.bar(categories, log_2_ap, label='FirSTee', color=firstee_color, alpha=0.8, bottom=log_1_ap)
 
         # Add labels showing the difference on top of FirSTee bars

@@ -2,7 +2,7 @@
 
 <p align="center">
   <!-- <h1 align="center"><img src="materials/figure.png" width="256"></h1> -->
-  <h1 align="center">UnSec:Train-Free Robust Open-Vocabulary Object Detection with Universal Semantic Self-Calibration</h1>
+  <h1 align="center">Addressing Granularity-induced Semantic Drift in OvOD via Graph-guided semantically consistent representation</h1>
   <!-- <p align="center">
     <a href="https://oatmealliu.github.io/"><strong>Mingxuan Liu</strong></a>
     ·
@@ -18,7 +18,7 @@
   <!-- <h3 align="center">
     <a href="https://arxiv.org/abs/2405.10053">Paper</a> |
     <a href="https://arxiv.org/abs/2405.10053">ArXiv</a> |
-    <a href="https://github.com/naver/UnSec">Code</a> |
+    <a href="https://github.com/naver/GraSecon">Code</a> |
     <a href="">Poster (coming soon)</a>
   </h3>  -->
 <div align="center"></div>
@@ -42,12 +42,12 @@ Requirements:
 Setup environment
 ```shell script
 # Clone this project repository under your workspace folder
-git clone https://github.com/naver/UnSec.git --recurse-submodules
-cd UnSec
+git clone https://github.com/naver/GraSecon.git --recurse-submodules
+cd GraSecon
 # Create conda environment and install the dependencies
-conda env create -n UnSec -f UnSec.yml
+conda env create -n GraSecon -f GraSecon.yml
 # Activate the working environment
-conda activate UnSec
+conda activate GraSecon
 # Install Detectron2 under your workspace folder
 # (Please follow Detectron2 official instructions)
 cd ..
@@ -67,7 +67,7 @@ export OPENAI_API_KEY=YOUR_OpenAI_Key
 ```
 
 ## OvOD Models Preparation
-UnSec is training-free. So we just need to download off-the-shelf OvOD models and apply UnSec on top of them. 
+GraSecon is training-free. So we just need to download off-the-shelf OvOD models and apply GraSecon on top of them. 
 You can download the models:
 - [Detic](https://github.com/facebookresearch/Detic)
 - [VLDet](https://github.com/clin1223/VLDet)
@@ -75,7 +75,7 @@ You can download the models:
 
 and put (or, softlink via `ln -s` command) under the `models` folder in this repository as:
 ```shell script
-UnSec
+GraSecon
     └── models
           ├── codet
             ├── CoDet_OVLVIS_R5021k_4x_ft4x.pth
@@ -120,7 +120,7 @@ You can download the datasets:
 
 and put (or, softlink via `ln -s` command) under the `datasets` folder in this repository as:
 ```shell script
-UnSec
+GraSecon
     └── datasets
           ├── inat
           ├── fsod
@@ -128,39 +128,36 @@ UnSec
 ```
 
 
-## Run UnSec on OvOD
-Example of applying UnSec on Detic for OvOD task using iNat dataset:
+## Run GraSecon on OvOD
+Example of applying GraSecon on Detic for OvOD task using iNat dataset:
 ```shell script
 # Vanilla OvOD (baseline)
 bash scripts_local/Detic/inat/swin/baseline/inat_detic_SwinB_LVIS-IN-21K-COCO_baseline.sh
- 
-# UnSec using dataset-provided hierarchy
-bash scripts_local/Detic/inat/swin/UnSec_gt/inat_detic_SwinB_LVIS-IN-21K-COCO_UnSec_gt.sh
 
-# UnSec using LLM-generated synthetic hierarchy
-bash scripts_local/Detic/inat/swin/UnSec_llm/inat_detic_SwinB_LVIS-IN-21K-COCO_UnSec_llm.sh
+# GraSecon using LLM-generated synthetic hierarchy
+bash scripts_local/Detic/inat/swin/GraSecon_llm/inat_detic_SwinB_LVIS-IN-21K-COCO_GraSecon_llm.sh
 ```
 
-## Run UnSec on Zero-shot classification
-Example of applying UnSec on CLIP zero-shot transfer task using ImageNet-1k dataset:
+## Run GraSecon on Zero-shot classification
+Example of applying GraSecon on CLIP zero-shot transfer task using ImageNet-1k dataset:
 ```shell script
 # Vanilla CLIP Zero-shot transfer (baseline)
 bash scripts_local/Classification/imagenet1k/baseline/imagenet1k_vitL14_baseline.sh
 
-# UnSec using WordNet hierarchy
-bash scripts_local/Classification/imagenet1k/UnSec_wordnet/imagenet1k_vitL14_UnSec_wordnet.sh
+# GraSecon using WordNet hierarchy
+bash scripts_local/Classification/imagenet1k/GraSecon_wordnet/imagenet1k_vitL14_GraSecon_wordnet.sh
 
-# UnSec using LLM-generated synthetic hierarchy
-bash scripts_local/Classification/imagenet1k/UnSec_llm/imagenet1k_vitL14_UnSec_llm.sh
+# GraSecon using LLM-generated synthetic hierarchy
+bash scripts_local/Classification/imagenet1k/GraSecon_llm/imagenet1k_vitL14_GraSecon_llm.sh
 ```
 
 
-## UnSec Construction (optional)
-Example of constructing UnSec classifier for OvOD task using iNat dataset:
+## GraSecon Construction (optional)
+Example of constructing GraSecon classifier for OvOD task using iNat dataset:
 ```shell script
-# UnSec using dataset-provided hierarchy
+# GraSecon using dataset-provided hierarchy
 bash scripts_build_./nexus/inat/build_inat_nexus_gt.sh
-# UnSec using LLM-generated synthetic hierarchy
+# GraSecon using LLM-generated synthetic hierarchy
 bash scripts_build_./nexus/inat/build_inat_nexus_llm.sh
 ```
 
@@ -191,7 +188,7 @@ This project is licensed under the [LICENSE](LICENSE.txt) file.
 <!-- ## Citation
 If you find our work useful for your research, please cite our paper using the following BibTeX entry:
 ```bibtex
-@inproceedings{liu2024UnSec,
+@inproceedings{liu2024GraSecon,
   title={{SH}i{N}e: Semantic Hierarchy Nexus for Open-vocabulary Object Detection},
   author={Liu, Mingxuan and Hayes, Tyler L. and Ricci, Elisa and Csurka, Gabriela and Volpi, Riccardo},
   booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
@@ -200,7 +197,7 @@ If you find our work useful for your research, please cite our paper using the f
 ``` -->
 
 ## Acknowledgment
-UnSec is built upon the awesome works
+GraSecon is built upon the awesome works
 [iNat](https://github.com/visipedia/inat_loc),
 [FSOD](https://github.com/fanq15/Few-Shot-Object-Detection-Dataset),
 [BREEDS](https://github.com/MadryLab/BREEDS-Benchmarks),

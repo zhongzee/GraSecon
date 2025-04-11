@@ -2,10 +2,10 @@
 
 activateEnvironmentAndMove() {
     # Activate the conda environment
-    conda activate UnSec
+    conda activate GraSecon
 
     # Change directory
-    cd UnSec || exit
+    cd GraSecon || exit
 }
 
 buildNexus() {

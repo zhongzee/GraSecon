@@ -1,8 +1,8 @@
 #!/bin/bash
 
-conda activate UnSec
+conda activate GraSecon
 
-METADATA_ROOT="./nexus/fsod/vitB32/UnSec_GT_detail_TFC"
+METADATA_ROOT="./nexus/fsod/vitB32/GraSecon_GT_detail_TFC"
 
 python train_net_detic_IFC.py \
         --num-gpus 8 \

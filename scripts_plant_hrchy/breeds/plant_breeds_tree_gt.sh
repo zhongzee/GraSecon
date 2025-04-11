@@ -1,9 +1,9 @@
 #!/bin/bash
 
-conda activate UnSec
+conda activate GraSecon
 
-cd UnSec_cls || exit
+cd GraSecon_cls || exit
 
-echo "Planting BREEDS hierarchy ground-truth hierarchy tree to: UnSec_cls/hrchy_breeds"
+echo "Planting BREEDS hierarchy ground-truth hierarchy tree to: GraSecon_cls/hrchy_breeds"
 
 python -W ignore plant_hierarchy.py --source "breeds"

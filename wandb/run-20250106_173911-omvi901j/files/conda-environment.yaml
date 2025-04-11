@@ -1,4 +1,4 @@
-name: UnSec2
+name: GraSecon2
 channels:
   - defaults
 dependencies:
@@ -194,4 +194,4 @@ dependencies:
       - yacs==0.1.8
       - yarl==1.9.2
       - zipp==3.16.0
-prefix: /mnt/afs/huangtao3/miniconda3/envs/UnSec2
+prefix: /mnt/afs/huangtao3/miniconda3/envs/GraSecon2

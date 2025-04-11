@@ -12,10 +12,10 @@ bash
 
 activateAndRun() {
     # Activate the conda environment
-    conda activate UnSec
+    conda activate GraSecon
 
     # Change to the specified directory, exit if it fails
-    cd UnSec_cls || exit
+    cd GraSecon_cls || exit
 
    # If you wanna test inference speed, change --num_runs to 10
     python -W ignore zeroshot.py \

@@ -98,7 +98,7 @@ results_df = pd.DataFrame(columns=["Baseline", "Model", "Level", "Distance Metri
 
 # 循环处理所有的 baseline, model 和 level
 level_names = [f"l{i}" for i in range(1, 7)]  # l1 到 l6
-baselines = ["baseline", "UnSec_gt", "UnSec_llm"]
+baselines = ["baseline", "GraSecon_gt", "GraSecon_llm"]
 clip_models = ["rn50", "vitB32"]
 output_root = "./inat"  # 结果保存路径
 

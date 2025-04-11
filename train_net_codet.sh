@@ -1,29 +1,29 @@
 #!/bin/bash
 
-# SCRIPT_PATH="./scripts_local/Detic/inat/swin/UnSec_gt_detail_domain/inat_detic_SwinB_LVIS-IN-21K-COCO_UnSec_gt_detail_TFC_inat_policy_dgm_0113.sh"
+# SCRIPT_PATH="./scripts_local/Detic/inat/swin/GraSecon_gt_detail_domain/inat_detic_SwinB_LVIS-IN-21K-COCO_GraSecon_gt_detail_TFC_inat_policy_dgm_0113.sh"
 
-# SCRIPT_PATH="./scripts_local/CoDet/inat/rn50/inat_codet_rn50_UnSec_llm_by_level_TFC_0113_new_layer_policy_5n1g_new_epoch2_dgm_IFC.sh"
+# SCRIPT_PATH="./scripts_local/CoDet/inat/rn50/inat_codet_rn50_GraSecon_llm_by_level_TFC_0113_new_layer_policy_5n1g_new_epoch2_dgm_IFC.sh"
 
-# SCRIPT_PATH="./scripts_local/CoDet/inat/swin/inat_codet_swin_UnSec_llm_by_level_TFC_0113_new_layer_policy_5n1g_new_epoch2_dgm.sh"
+# SCRIPT_PATH="./scripts_local/CoDet/inat/swin/inat_codet_swin_GraSecon_llm_by_level_TFC_0113_new_layer_policy_5n1g_new_epoch2_dgm.sh"
 
-# SCRIPT_PATH="./scripts_local/CoDet/inat/rn50/inat_codet_rn50_UnSec_llm_by_level_TFC_0113_new_layer_policy_5n1g_new_epoch2_dgm_IFC.sh"
+# SCRIPT_PATH="./scripts_local/CoDet/inat/rn50/inat_codet_rn50_GraSecon_llm_by_level_TFC_0113_new_layer_policy_5n1g_new_epoch2_dgm_IFC.sh"
 
-# SCRIPT_PATH="./scripts_local/CoDet/inat/rn50/inat_codet_rn50_UnSec_llm.sh"
+# SCRIPT_PATH="./scripts_local/CoDet/inat/rn50/inat_codet_rn50_GraSecon_llm.sh"
 
 # SCRIPT_PATH="./scripts_local/CoDet/inat/rn50/inat_codet_rn50_baseline2.sh"
 
-# SCRIPT_PATH="./scripts_local/CoDet/inat/swin/inat_codet_swin_UnSec_llm_by_level_TFC_0113_new_layer_policy_5n1g_new_epoch2_dgm_0115.sh"
+# SCRIPT_PATH="./scripts_local/CoDet/inat/swin/inat_codet_swin_GraSecon_llm_by_level_TFC_0113_new_layer_policy_5n1g_new_epoch2_dgm_0115.sh"
 
-# SCRIPT_PATH="./scripts_local/CoDet/inat/rn50/inat_codet_rn50_UnSec_llm_by_level_TFC_0113_new_layer_policy_5n1g_new_epoch2_dgm_OIFC_0115.sh"
-# SCRIPT_PATH="./scripts_local/CoDet/inat/rn50/inat_codet_rn50_UnSec_llm_by_level_TFC_0113_new_layer_policy_5n1g_new_epoch2_dgm_IFC_0115.sh"
+# SCRIPT_PATH="./scripts_local/CoDet/inat/rn50/inat_codet_rn50_GraSecon_llm_by_level_TFC_0113_new_layer_policy_5n1g_new_epoch2_dgm_OIFC_0115.sh"
+# SCRIPT_PATH="./scripts_local/CoDet/inat/rn50/inat_codet_rn50_GraSecon_llm_by_level_TFC_0113_new_layer_policy_5n1g_new_epoch2_dgm_IFC_0115.sh"
 
 # SCRIPT_PATH="./scripts_local/CoDet/inat/rn50/inat_codet_rn50_baseline_l6.sh"
 
-# SCRIPT_PATH="./scripts_local/CoDet/fsod/swin/fsod_codet_swin_UnSec_llm_by_level_TFC_0113_new_layer_policy_5n1g_new_epoch2_dgm.sh"
+# SCRIPT_PATH="./scripts_local/CoDet/fsod/swin/fsod_codet_swin_GraSecon_llm_by_level_TFC_0113_new_layer_policy_5n1g_new_epoch2_dgm.sh"
 
-SCRIPT_PATH="./scripts_local/CoDet/fsod/rn50/fsod_codet_rn50_UnSec_llm_by_level_TFC_0113_new_layer_policy_5n1g_new_epoch2_dgm.sh"
+SCRIPT_PATH="./scripts_local/CoDet/fsod/rn50/fsod_codet_rn50_GraSecon_llm_by_level_TFC_0113_new_layer_policy_5n1g_new_epoch2_dgm.sh"
 
-SCRIPT_PATH="./scripts_local/CoDet/fsod/rn50/fsod_codet_rn50_UnSec_llm.sh"
+SCRIPT_PATH="./scripts_local/CoDet/fsod/rn50/fsod_codet_rn50_GraSecon_llm.sh"
 
 SCRIPT_PATH="./scripts_local/CoDet/fsod/rn50/fsod_codet_rn50_baseline.sh"
 
@@ -31,7 +31,7 @@ SCRIPT_PATH="./scripts_local/CoDet/fsod/rn50/fsod_codet_rn50_baseline.sh"
 BASE_LOG_DIR="./log"
 
 # 获取脚本的相对路径
-RELATIVE_PATH=$(realpath --relative-to="./UnSec-master" "$SCRIPT_PATH")
+RELATIVE_PATH=$(realpath --relative-to="./GraSecon-master" "$SCRIPT_PATH")
 
 # 去掉脚本文件名的扩展名（.sh），用于日志文件名
 LOG_FILE_NAME=$(basename "$RELATIVE_PATH" .sh)

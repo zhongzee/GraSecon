@@ -1,13 +1,13 @@
 #!/bin/bash
 
 # 脚本的绝对路径
-SCRIPT_PATH="./scripts_local/Classification/imagenet1k/UnSec_llm_domain/imagenet1k_vitL14_UnSec_detail_llm_MFC.sh"
+SCRIPT_PATH="./scripts_local/Classification/imagenet1k/GraSecon_llm_domain/imagenet1k_vitL14_GraSecon_detail_llm_MFC.sh"
 
 # 设置日志的基础路径
 BASE_LOG_DIR="./log"
 
 # 获取脚本的相对路径
-RELATIVE_PATH=$(realpath --relative-to="./UnSec-master" "$SCRIPT_PATH")
+RELATIVE_PATH=$(realpath --relative-to="./GraSecon-master" "$SCRIPT_PATH")
 
 # 去掉脚本文件名的扩展名（.sh），用于日志文件名
 LOG_FILE_NAME=$(basename "$RELATIVE_PATH" .sh)
